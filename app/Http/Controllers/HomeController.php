@@ -10,4 +10,35 @@ class HomeController extends Controller
 
         return view('home.index');
     }
+
+    public function nonVotant(){
+
+        return view('home.non-votant');
+    }
+
+    public function hesitant(){
+
+        return view('home.hesitant');
+    }
+
+    public function nonInteresse(){
+
+        return view('home.non-interesse');
+    }
+
+    public function voteBlanc(){
+
+        return view('home.vote-blanc');
+    }
+
+    public function abstenant(){
+
+        return view('home.abstenant');
+    }
+
+    public function fidele(){
+
+        return view('home.fidele');
+    }
+
 }
