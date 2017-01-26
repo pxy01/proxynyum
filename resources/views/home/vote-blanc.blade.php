@@ -7,7 +7,7 @@
 
 @section('content')
 
-    <div class="container page5-background">
+    <div class="container-fluid page5-background">
         <!-- menu -->
 
     @include('partials.header')

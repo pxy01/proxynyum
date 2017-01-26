@@ -7,7 +7,7 @@
 @section('content')
 
 
-    <div class="container page-background">
+    <div class="container-fluid page-background">
 
         <!-- menu -->
 
@@ -23,28 +23,28 @@
                 <div class="block-white">
 
                     <div class="bloc-day">
-                    <span class="title">
-                        DAYS
-                    </span>
+                        <span class="title">
+                            DAYS
+                        </span>
                         <span class="content">
-                        50
-                    </span>
+                            50
+                        </span>
                     </div>
                     <div class="bloc-hour">
-                    <span class="title">
-                        HOURS
-                    </span>
+                        <span class="title">
+                            HOURS
+                        </span>
                         <span class="content">
-                        18
-                    </span>
+                            18
+                        </span>
                     </div>
                     <div class="bloc-minute">
-                    <span class="title">
-                        MINUTES
-                    </span>
+                        <span class="title">
+                            MINUTES
+                        </span>
                         <span class="content">
-                        45
-                    </span>
+                            45
+                        </span>
                     </div>
 
                 </div>

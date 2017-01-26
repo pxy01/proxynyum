@@ -42,65 +42,58 @@
 <!-- /content -->
 
 <!-- footer -->
-<div class="container">
-    <!-- footer -->
-    <div class="row text-center">
-        <div class="footer">
-            <div class="row"><br><br>
-                <div class="col-sm-4 text-center">
+<div class="container-fluid footer">
+    <div class="row">
+        <div class="col-sm-4 text-center">
 
-                    <div class="footer-title">
-                        proxynium
-                    </div>
-                    <br><br>
-                    <a class="footer-link" href="">Page d'accueil</a>
-
-                    <a class="footer-link" href="">Vous</a>
-
-                    <a class="footer-link" href="">Notre Mission</a>
-
-                    <a href=""><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
-                    <a href=""><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
-                    <a href=""><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
-
-                </div>
-                <div class="col-sm-4 text-justify">
-
-                    <div class="footer-title">
-                        à propos
-                    </div>
-                    <br><br>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci architecto atque commodi consectetur deleniti dicta ducimus.
-                    </p>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consequatur error exercitationem explicabo impedit ipsa laboriosam officiis quaerat recusandae, sint. Aperiam earum ex facilis iste officia, possimus quo rerum vero?
-
-                    </p>
-
-                </div>
-                <div class="col-sm-4">
-
-                    <div class="footer-title">
-                        contact
-                    </div>
-                    <br><br>
-
-                    TEL : 01 12 34 56 78 <br>
-                    Adresse:
-                    <br><br>
-                    Mail : proxynium@gmail.com
-
-                </div>
-
-                <div class="col-sm-12">
-                    <br><br>
-                    Crédit et mentions légale
-                </div>
+            <div class="footer-title">
+                proxynium
             </div>
-            <br><br><br>
+            <br><br>
+            <a class="footer-link" href="">Page d'accueil</a>
+
+            <a class="footer-link" href="">Vous</a>
+
+            <a class="footer-link" href="">Notre Mission</a>
+
+            <a href=""><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+            <a href=""><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+            <a href=""><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
+
+        </div>
+        <div class="col-sm-4 text-justify">
+
+            <div class="footer-title">
+                à propos
+            </div>
+            <br><br>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci architecto atque commodi consectetur deleniti dicta ducimus.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consequatur error exercitationem explicabo impedit ipsa laboriosam officiis quaerat recusandae, sint. Aperiam earum ex facilis iste officia, possimus quo rerum vero?
+
+            </p>
+
+        </div>
+        <div class="col-sm-4">
+
+            <div class="footer-title">
+                contact
+            </div>
+            <br><br>
+
+            TEL : 01 12 34 56 78 <br>
+            Adresse:
+            <br><br>
+            Mail : proxynium@gmail.com
+
         </div>
 
+        <div class="col-sm-12 text-center">
+            <br><br>
+            Crédit et mentions légale
+        </div>
     </div>
 </div>
 <!-- /footer -->

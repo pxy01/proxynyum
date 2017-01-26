@@ -27,6 +27,9 @@ body {
     text-transform: uppercase;
     padding: 7px;
 }
+#menu .mission a{
+    margin-left: 2.8em;
+}
 #menu .accueil a:hover{
     text-decoration: none;
     border-top: 5px solid #FADB00;
@@ -53,11 +56,11 @@ body {
     padding: 3em 5em;
 }
 .rubrique-one .block-white{
-    width: 800px;
+    width: 1070px;
     height: 120px;
     background-color: #424242;
-    margin-left: 8em;
-    padding-left: 15em;
+    margin-left: 3em;
+    padding-left: 25em;
 }
 .block-white .bloc-day, .bloc-hour, .bloc-minute, .bloc-second{
     display: inline-block;
@@ -83,13 +86,14 @@ body {
 }
 
 .rubrique-one .block-transparent{
-    width: 800px;
+    width: 1070px;
     height: 500px;
     background-color: rgba(243,226,71,0.9);
-    margin-left: 8em;
+    margin-left: 3em;
 }
 .rubrique-one .text-one{
-    font-size: 18px;
+    font-size: 22px;
+    letter-spacing: 1px;
     font-weight: 700;
     padding: 1em 0.5em 0 0.5em;
 }
@@ -144,6 +148,11 @@ body {
 }
 .page6-background{
     background-image: url("../img/image6.png");
+    background-repeat: no-repeat;
+    background-size: 100% 920px;
+}
+.page7-background{
+    background-image: url("../img/image7.png");
     background-repeat: no-repeat;
     background-size: 100% 920px;
 }
@@ -229,8 +238,10 @@ body {
 /*::::::::::: footer :::::::::::::*/
 .footer{
     background-color: #FADB00;
-    width: 100%;
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
+
 .footer .footer-title{
     padding: 10px;
     background-color: #474747;
