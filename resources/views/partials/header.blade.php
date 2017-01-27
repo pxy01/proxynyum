@@ -18,7 +18,7 @@
         <div class="col-xs-4">
             <div class="mission">
 
-                <a href="">notre mission</a>
+                <a href="{{ route('mission') }}">notre mission</a>
 
             </div>
         </div>

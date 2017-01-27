@@ -44,7 +44,7 @@ body {
 
 /*::::::::::::::::: 1er rubrique ::::::::::::::::::::::*/
 
-.page-background{
+.page-background,.page8-background{
     background-image: url("../img/image1.png");
     background-repeat: no-repeat;
     background-size: 100% 920px;
@@ -156,6 +156,11 @@ body {
     background-repeat: no-repeat;
     background-size: 100% 920px;
 }
+.page9-background{
+    background-image: url("../img/image.png");
+    background-repeat: no-repeat;
+    background-size: 100% 980px;
+}
 
 .deuxieme-block .option-one{
     text-transform: uppercase;
@@ -266,3 +271,46 @@ body {
     color: #FFF;
 }
 /*:::::::::::::::: /footer :::::::::::::::::*/
+
+/*:::::::::::::::: mission :::::::::::::::::*/
+#mission .mission-block-one{
+    background-color: rgba(244,218,0,0.9);
+    width: 1070px;
+    padding: 1em;
+    margin-left: 6.7em;
+    margin-top: 5em;
+}
+#mission .other-block{
+    margin-top: 0 !important;
+}
+#mission .other-block .title{
+    font-size: 2em!important;
+}
+#mission .mission-block-one .title{
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+    color: #41483B;
+    text-transform: uppercase;
+    margin: 0.5em 0 0.5em 0;
+}
+#mission .other-block .text{
+    padding: 0 !important;
+    text-align: justify !important;
+}
+#mission .mission-block-one .text{
+    text-align: center;
+    padding: 0 4em 0 4em;
+    font-size: 1.5em;
+}
+#mission .mission-block-two{
+    background-color: rgba(255,255,255,0.9);
+    width: 1070px;
+    padding: 5px;
+    margin-left: 6.7em;
+}
+#mission .mission-block-two .icon{
+    font-size: 8em;
+    color: #F4DA00;
+    text-align: center;
+}

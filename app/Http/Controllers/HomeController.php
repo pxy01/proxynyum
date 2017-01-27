@@ -41,4 +41,9 @@ class HomeController extends Controller
         return view('home.fidele');
     }
 
+    public function mission(){
+
+        return view('home.mission');
+    }
+
 }
