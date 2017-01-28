@@ -42,7 +42,7 @@
 <!-- /content -->
 
 <!-- footer -->
-<div class="container-fluid footer">
+<div class="container-fluid footer" id="footer">
     <div class="row">
         <div class="col-sm-1"></div>
 
@@ -110,9 +110,8 @@
 <script src="{{ URL::asset('js/bootstrap.min.js') }}"></script>
 <script src="//cdn.tinymce.com/4/tinymce.min.js"></script>
 <script src="{{ URL::asset('js/script.js') }}"></script>
-<script>
-    @yield('js_script')
-</script>
+
+@yield('js_script')
 
 </body>
 </html>

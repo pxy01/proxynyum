@@ -238,7 +238,7 @@ body {
 /*::::::::::: footer :::::::::::::*/
 .footer{
     background-color: #FADB00;
-    padding-top: 2em;
+    padding-top: 4em;
     padding-bottom: 2em;
 }
 
@@ -302,6 +302,94 @@ body {
     padding: 5px;
 }
 #mission .mission-block-two .icon{
+    font-size: 8em;
+    color: #F4DA00;
+    text-align: center;
+}
+
+/* ::::::::::::::::::::::::: pop up :::::::::::::::::::::::::::*/
+.popup-body{
+    background-color: rgba(0,0,0,0.9);
+    position: absolute;
+    z-index: 9999;
+}
+.popup-body .popup-logo{
+    width: 150px;
+    background-color: #FFF;
+    padding: 5px;
+}
+#popup .mission-block-one{
+    background-color: rgba(243,226,71,0.9);
+    width: 100%;
+    padding: 1em;
+    margin-top: 5em;
+}
+#popup .other-block{
+    margin-top: 0 !important;
+}
+#popup .other-block .title{
+    font-size: 2em!important;
+}
+#popup .mission-block-one .title{
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    color: #41483B;
+    text-transform: uppercase;
+    margin: 0.5em 0 0.5em 0;
+}
+#popup .other-block .text{
+    padding: 0 !important;
+    text-align: justify !important;
+}
+#popup .mission-block-one .text{
+    text-align: center;
+    padding: 0 4em 0 4em;
+    font-size: 1.5em;
+}
+#popup .mission-block-two{
+    background-color: rgba(255,255,255,0.9);
+    width: 100%;
+    padding: 1em 3em;
+    font-size: 1.4em;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 500;
+}
+
+/*#popup .mission-block-two .young-electeur-button{
+    padding: 5px;
+    text-transform: uppercase;
+    font-size: .8em;
+    font-weight: 500;
+    background-color: rgba(243,226,71,0.9);
+    color: #41483B;
+    margin-right: 10px;
+    text-align: center;
+}
+#popup .mission-block-two .young-electeur-button a{
+    color: #41483B;
+}
+#popup .mission-block-two .young-electeur-button a:hover{
+    text-decoration: none;
+}
+*/
+#popup .mission-block-two .electeur-button{
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 1.4em;
+    font-weight: 500;
+    background-color: rgba(243,226,71,0.9);
+    color: #41483B;
+    margin-right: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+#popup .mission-block-two .electeur-button:hover{
+    background-color: rgba(243,226,0,1);
+    text-decoration: none;
+}
+#popup .mission-block-two .icon{
     font-size: 8em;
     color: #F4DA00;
     text-align: center;
