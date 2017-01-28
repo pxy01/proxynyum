@@ -52,15 +52,11 @@ body {
 
 .rubrique-one{
     width: 100%;
-    height: 700px;
-    padding: 3em 5em;
 }
 .rubrique-one .block-white{
-    width: 1070px;
+    width: 100%;
     height: 120px;
     background-color: #424242;
-    margin-left: 3em;
-    padding-left: 25em;
 }
 .block-white .bloc-day, .bloc-hour, .bloc-minute, .bloc-second{
     display: inline-block;
@@ -86,16 +82,15 @@ body {
 }
 
 .rubrique-one .block-transparent{
-    width: 1070px;
-    height: 500px;
+    width: 100%;
     background-color: rgba(243,226,71,0.9);
-    margin-left: 3em;
+    padding-bottom: 2em;
 }
 .rubrique-one .text-one{
     font-size: 22px;
     letter-spacing: 1px;
     font-weight: 700;
-    padding: 1em 0.5em 0 0.5em;
+    padding: 1em 0.2em;
 }
 .rubrique-one .text-two{
     font-size: 25px;
@@ -248,13 +243,12 @@ body {
 }
 
 .footer .footer-title{
-    padding: 10px;
+    padding: 10px 2em;
     background-color: #474747;
     color: #FADB00;
     text-transform: uppercase;
-    width: 150px;
+    width: 200px;
     text-align: center;
-    margin-left: 8em;
 }
 .footer .footer-link{
     font-size: 16px;
@@ -275,9 +269,8 @@ body {
 /*:::::::::::::::: mission :::::::::::::::::*/
 #mission .mission-block-one{
     background-color: rgba(244,218,0,0.9);
-    width: 1070px;
+    width: 100%;
     padding: 1em;
-    margin-left: 6.7em;
     margin-top: 5em;
 }
 #mission .other-block{
@@ -305,9 +298,8 @@ body {
 }
 #mission .mission-block-two{
     background-color: rgba(255,255,255,0.9);
-    width: 1070px;
+    width: 100%;
     padding: 5px;
-    margin-left: 6.7em;
 }
 #mission .mission-block-two .icon{
     font-size: 8em;
