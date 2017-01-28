@@ -47,6 +47,17 @@
 
     /*:::::mission :::::::::*/
 
+    /*::::: popup :::::::::*/
+    #popup .mission-block-one .text{
+        font-size: 1.3em;
+    }
+    #popup .mission-block-two .electeur-button{
+        font-size: 1.2em;
+    }
+    /*::::: popup :::::::::*/
+
+
+
 }
 
 @media all and (min-width: 770px) and (max-width: 959px){
@@ -92,6 +103,25 @@
     }
 
     /*:::::mission :::::::::*/
+
+    /*::::: popup :::::::::*/
+    #popup .mission-block-one .text{
+        font-size: 1em;
+    }
+    #popup .mission-block-two .electeur-button{
+        font-size: 0.8em;
+    }
+    #popup .other-block .title{
+        font-size: 1.5em!important;
+    }
+    #popup .mission-block-one .title{
+        font-size: 2em;
+    }
+    #popup .mission-block-two{
+        padding: 1em 1em;
+    }
+
+    /*::::: popup :::::::::*/
 
 }
 @media all and (min-width: 650px) and (max-width: 769px){
@@ -192,6 +222,25 @@
         margin: 0.2em 0 0.2em 0;
     }
     /*:::::mission :::::::::*/
+
+    /*::::: popup :::::::::*/
+    #popup .mission-block-one .text{
+        font-size: 1em;
+    }
+    #popup .mission-block-two .electeur-button{
+        font-size: 0.8em;
+    }
+    #popup .other-block .title{
+        font-size: 1.5em!important;
+    }
+    #popup .mission-block-one .title{
+        font-size: 2em;
+    }
+    #popup .mission-block-two{
+        padding: 1em 1em;
+    }
+
+    /*::::: popup :::::::::*/
 
 }
 
@@ -303,6 +352,28 @@
         font-size: 5em;
     }
     /*:::::mission :::::::::*/
+
+    /*::::: popup :::::::::*/
+    #popup .mission-block-one .text{
+        font-size: 1em;
+    }
+    #popup .mission-block-two .electeur-button{
+        font-size: 0.8em;
+        display: block;
+        margin-top: 5px;
+    }
+    #popup .other-block .title{
+        font-size: 1.5em!important;
+    }
+    #popup .mission-block-one .title{
+        font-size: 1.3em;
+    }
+    #popup .mission-block-two{
+        padding: 1em 0.5em;
+        font-size: 1.2em;
+    }
+
+    /*::::: popup :::::::::*/
 }
 
 @media all and (max-width: 489px){
@@ -412,5 +483,27 @@
         font-size: 4em;
     }
     /*:::::mission :::::::::*/
+
+    /*::::: popup :::::::::*/
+    #popup .mission-block-one .text{
+        font-size: 1em;
+    }
+    #popup .mission-block-two .electeur-button{
+        font-size: 0.8em;
+        display: block;
+        margin-top: 5px;
+    }
+    #popup .other-block .title{
+        font-size: 1.5em!important;
+    }
+    #popup .mission-block-one .title{
+        font-size: 1.3em;
+    }
+    #popup .mission-block-two{
+        padding: 1em 0.5em;
+        font-size: 1.2em;
+    }
+
+    /*::::: popup :::::::::*/
 
 }
