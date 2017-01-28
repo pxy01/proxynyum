@@ -69,7 +69,7 @@
                                 <form action="" class="formulaire">
                                     <div class="form-group">
                                         <div class="row">
-                                            <div class="col-sm-5 text-right">
+                                            <div class="col-sm-5 text-right champ-label">
                                                 ADRESSE MAIL:
                                             </div>
                                             <div class="col-sm-6">
@@ -80,7 +80,7 @@
                                     </div>
                                     <div class="form-group">
                                         <div class="row">
-                                            <div class="col-sm-5 text-right">
+                                            <div class="col-sm-5 text-right champ-label">
                                                 COMMUNE ELECTORALE <sup>*</sup>
                                             </div>
                                             <div class="col-sm-6">
@@ -106,7 +106,7 @@
                                     </div>
                                     <div class="row">
                                         <div class="col-sm-5"></div>
-                                        <div class="col-sm-6 text-left">
+                                        <div class="col-sm-6 text-left button-mobile-position">
                                             <button class="button-style">
                                                 OK
                                             </button>

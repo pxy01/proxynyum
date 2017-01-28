@@ -69,7 +69,7 @@
                                 <form action="" class="formulaire">
                                     <div class="form-group">
                                         <div class="row">
-                                            <div class="col-sm-5 text-right" style="padding-top: 7px;">
+                                            <div class="col-sm-5 text-right mobile-position" style="padding-top: 7px;">
                                                 ADRESSE MAIL:
                                             </div>
                                             <div class="col-sm-6">

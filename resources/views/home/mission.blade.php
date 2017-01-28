@@ -38,17 +38,17 @@
                         </div>
                         <div class="mission-block-two">
                             <div class="row">
-                                <div class="col-sm-4">
+                                <div class="col-xs-4">
                                     <div class="icon">
                                         <i class="fa fa-lock"></i>
                                     </div>
                                 </div>
-                                <div class="col-sm-4">
+                                <div class="col-xs-4">
                                     <div class="icon">
                                         <i class="fa fa-flag"></i>
                                     </div>
                                 </div>
-                                <div class="col-sm-4">
+                                <div class="col-xs-4">
                                     <div class="icon">
                                         <i class="fa fa-handshake-o"></i>
                                     </div>
