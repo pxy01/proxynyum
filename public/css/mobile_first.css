@@ -23,6 +23,13 @@
 
     /*:::::mission :::::::::*/
 
+    /*::::: popup :::::::::*/
+    #popup .mission-block-two .jeune-electeur-button{
+        font-size: 0.8em;
+        padding: 7px 0;
+    }
+    /*::::: popup :::::::::*/
+
 }
 @media all and (min-width: 960px) and (max-width: 991px){
 
@@ -53,6 +60,10 @@
     }
     #popup .mission-block-two .electeur-button{
         font-size: 1.2em;
+    }
+    #popup .mission-block-two .jeune-electeur-button{
+        font-size: 0.8em;
+        padding: 4px 0;
     }
     /*::::: popup :::::::::*/
 
@@ -120,7 +131,16 @@
     #popup .mission-block-two{
         padding: 1em 1em;
     }
-
+    #popup .mission-block-two .jeune-electeur-button{
+        font-size: 0.7em;
+        padding: 2px 0;
+    }
+    #popup #question-pc{
+        display: none;
+    }
+    #popup #question-mobile{
+        display: block;
+    }
     /*::::: popup :::::::::*/
 
 }
@@ -239,8 +259,31 @@
     #popup .mission-block-two{
         padding: 1em 1em;
     }
-
+    #popup .mission-block-two .jeune-electeur-button{
+        font-size: 0.7em;
+        padding: 2px 0;
+    }
+    #popup #question-pc{
+        display: none;
+    }
+    #popup #question-mobile{
+        display: block;
+    }
+    #popup #info-proxynium{
+        display: none;
+    }
     /*::::: popup :::::::::*/
+
+    /*::::: footer :::::::::*/
+    .footer .mobile-padding-footer{
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+    /*::::: footer :::::::::*/
+
+    .retour-button{
+        display: block;
+    }
 
 }
 
@@ -248,6 +291,9 @@
 
     #menu{
         display: none;
+    }
+    .retour-button{
+        display: block;
     }
 
     /*:::::::::::::::: menu ::::::::::::::::::*/
@@ -372,14 +418,36 @@
         padding: 1em 0.5em;
         font-size: 1.2em;
     }
-
+    #popup .mission-block-two .jeune-electeur-button{
+        font-size: 0.8em;
+        padding: 2px 0;
+    }
+    #popup #question-pc{
+        display: none;
+    }
+    #popup #question-mobile{
+        display: block;
+    }
+    #popup #info-proxynium{
+        display: none;
+    }
     /*::::: popup :::::::::*/
+
+    /*::::: footer :::::::::*/
+    .footer .mobile-padding-footer{
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+    /*::::: footer :::::::::*/
 }
 
 @media all and (max-width: 489px){
 
     #menu{
         display: none;
+    }
+    .retour-button{
+        display: block;
     }
 
     /*:::::::::::::::: menu ::::::::::::::::::*/
@@ -503,7 +571,26 @@
         padding: 1em 0.5em;
         font-size: 1.2em;
     }
-
+    #popup .mission-block-two .jeune-electeur-button{
+        font-size: 0.8em;
+        padding: 2px 0;
+    }
+    #popup #question-pc{
+        display: none;
+    }
+    #popup #question-mobile{
+        display: block;
+    }
+    #popup #info-proxynium{
+        display: none;
+    }
     /*::::: popup :::::::::*/
+
+    /*::::: footer :::::::::*/
+    .footer .mobile-padding-footer{
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+    /*::::: footer :::::::::*/
 
 }

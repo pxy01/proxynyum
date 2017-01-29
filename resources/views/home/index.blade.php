@@ -33,40 +33,44 @@
                             pour visiter ce site, vous devez être inscrit(e) sur les listes électorales de 2017.
                             <br><br>
                             êtes-vous électeur ?<br><br>
-                            <div class="row">
-                                <div class="col-xs-12 text-center">
-                                    <span id="oui" class="electeur-button">oui</span>
-                                    <span id="non" class="electeur-button">non</span>
-                                    <span id="jeune" class="electeur-button">je suis jeune jamais inscrit <sup>*</sup></span>
-                                    <br>
+                            <div class="row" id="question-pc">
+                                <div class="col-xs-3"></div>
+                                <div class="col-xs-2">
+                                    <div id="oui" class="electeur-button">oui</div>
                                 </div>
+                                <div class="col-xs-2">
+                                    <div id="oui" class="electeur-button">non</div>
+                                </div>
+                                <div class="col-xs-3">
+                                    <div id="oui" class="jeune-electeur-button">je suis jeune <br> jamais inscrit<sup>*</sup></div>
+                                </div>
+                                <div class="col-xs-2"></div>
+                            </div>
+                            <div class="row" id="question-mobile">
+                                <div class="col-xs-1"></div>
+                                <div class="col-xs-3">
+                                    <div id="oui" class="electeur-button">oui</div>
+                                </div>
+                                <div class="col-xs-3">
+                                    <div id="oui" class="electeur-button">non</div>
+                                </div>
+                                <div class="col-xs-4">
+                                    <div id="oui" class="jeune-electeur-button">je suis jeune <br> jamais inscrit<sup>*</sup></div>
+                                </div>
+                                <div class="col-xs-1"></div>
                             </div>
 
                         </div>
                         <div class="mission-block-one other-block">
                             <div class="row">
-                                <div class="col-sm-4">
-                                    <div class="title">
-                                        securite
-                                    </div>
+                                <div class="col-sm-12">
                                     <div class="text">
-                                        Aucune collecte de données inutiles. Les seules informations collectées, adresse mail, commune électorale et numéro de téléphone, sont protégées et seront supprimées à la fin des élections législative en juin 2017.
-                                    </div>
-                                </div>
-                                <div class="col-sm-4">
-                                    <div class="title">
-                                        neutralite
-                                    </div>
-                                    <div class="text">
-                                        Tous les partis politiques ou mouvement bénéficient du même traitement.
-                                    </div>
-                                </div>
-                                <div class="col-sm-4">
-                                    <div class="title">
-                                        confiance
-                                    </div>
-                                    <div class="text">
-                                        Confier son vote par procuration à un militant de parti politique pour garantir qu'il respectera votre choix politique.
+
+                                        <sup>*</sup> Si vous avez eu 18 ans avant 2017 ou si vous allez avoir 18 ans en 2017 avant le 1er tour des élections, vous êtes automatiquement inscrit sur les listes électorales par votre mairie où vous habitez à 16 ans au moment du recencement. Sauf radiation par la mairie, vous êtes toujours inscrit sur les listes électorales.
+                                        <p id="info-proxynium">
+                                            <br><br>
+                                            Les informations recueilles sont destinées et traitées uniquement par note startup Proxynium. A la fin des élections présidentielles et législatives, toutes les informations vous concernant seront supprimées. Vous pouvez demander à accéder, faire rectifier ou supprimer les informations vous concernant ou vous opposer à leur traitment par la startup Proxynium en envoyant un courriel aux coordonnées précisées dans les CGU.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -91,7 +95,15 @@
         <!-- end menu -->
 
         <!-- 1er block -->
-        <br><br><br>
+        <br>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="retour-button">
+                        <a href="{{route('index')}}"><i class="fa fa-reply" aria-hidden="true"></i> Retour</a>
+                    </div>
+                </div>
+            </div>
+        <br>
         <div class="row">
             <div class="col-sm-1"></div>
             <div class="col-sm-10">
