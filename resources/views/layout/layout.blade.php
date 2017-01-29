@@ -48,7 +48,7 @@
 
         <div class="col-sm-10">
             <div class="row">
-                <div class="col-sm-4 text-center">
+                <div class="col-sm-4 text-center mobile-padding-footer">
 
                     <span class="footer-title">
                         proxynium
@@ -65,7 +65,7 @@
                     <a href=""><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
 
                 </div>
-                <div class="col-sm-4 text-center">
+                <div class="col-sm-4 text-center mobile-padding-footer">
 
                     <span class="footer-title">
                         à propos
@@ -79,7 +79,7 @@
                     </p>
 
                 </div>
-                <div class="col-sm-4 text-center">
+                <div class="col-sm-4 text-center mobile-padding-footer">
 
                     <span class="footer-title">
                         contact

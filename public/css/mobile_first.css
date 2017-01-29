@@ -23,6 +23,13 @@
 
     /*:::::mission :::::::::*/
 
+    /*::::: popup :::::::::*/
+    #popup .mission-block-two .jeune-electeur-button{
+        font-size: 0.8em;
+        padding: 7px 0;
+    }
+    /*::::: popup :::::::::*/
+
 }
 @media all and (min-width: 960px) and (max-width: 991px){
 
@@ -46,6 +53,21 @@
     }
 
     /*:::::mission :::::::::*/
+
+    /*::::: popup :::::::::*/
+    #popup .mission-block-one .text{
+        font-size: 1.3em;
+    }
+    #popup .mission-block-two .electeur-button{
+        font-size: 1.2em;
+    }
+    #popup .mission-block-two .jeune-electeur-button{
+        font-size: 0.8em;
+        padding: 4px 0;
+    }
+    /*::::: popup :::::::::*/
+
+
 
 }
 
@@ -92,6 +114,34 @@
     }
 
     /*:::::mission :::::::::*/
+
+    /*::::: popup :::::::::*/
+    #popup .mission-block-one .text{
+        font-size: 1em;
+    }
+    #popup .mission-block-two .electeur-button{
+        font-size: 0.8em;
+    }
+    #popup .other-block .title{
+        font-size: 1.5em!important;
+    }
+    #popup .mission-block-one .title{
+        font-size: 2em;
+    }
+    #popup .mission-block-two{
+        padding: 1em 1em;
+    }
+    #popup .mission-block-two .jeune-electeur-button{
+        font-size: 0.7em;
+        padding: 2px 0;
+    }
+    #popup #question-pc{
+        display: none;
+    }
+    #popup #question-mobile{
+        display: block;
+    }
+    /*::::: popup :::::::::*/
 
 }
 @media all and (min-width: 650px) and (max-width: 769px){
@@ -193,12 +243,57 @@
     }
     /*:::::mission :::::::::*/
 
+    /*::::: popup :::::::::*/
+    #popup .mission-block-one .text{
+        font-size: 1em;
+    }
+    #popup .mission-block-two .electeur-button{
+        font-size: 0.8em;
+    }
+    #popup .other-block .title{
+        font-size: 1.5em!important;
+    }
+    #popup .mission-block-one .title{
+        font-size: 2em;
+    }
+    #popup .mission-block-two{
+        padding: 1em 1em;
+    }
+    #popup .mission-block-two .jeune-electeur-button{
+        font-size: 0.7em;
+        padding: 2px 0;
+    }
+    #popup #question-pc{
+        display: none;
+    }
+    #popup #question-mobile{
+        display: block;
+    }
+    #popup #info-proxynium{
+        display: none;
+    }
+    /*::::: popup :::::::::*/
+
+    /*::::: footer :::::::::*/
+    .footer .mobile-padding-footer{
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+    /*::::: footer :::::::::*/
+
+    .retour-button{
+        display: block;
+    }
+
 }
 
 @media all and (min-width: 490px) and (max-width: 649px){
 
     #menu{
         display: none;
+    }
+    .retour-button{
+        display: block;
     }
 
     /*:::::::::::::::: menu ::::::::::::::::::*/
@@ -303,12 +398,56 @@
         font-size: 5em;
     }
     /*:::::mission :::::::::*/
+
+    /*::::: popup :::::::::*/
+    #popup .mission-block-one .text{
+        font-size: 1em;
+    }
+    #popup .mission-block-two .electeur-button{
+        font-size: 0.8em;
+        display: block;
+        margin-top: 5px;
+    }
+    #popup .other-block .title{
+        font-size: 1.5em!important;
+    }
+    #popup .mission-block-one .title{
+        font-size: 1.3em;
+    }
+    #popup .mission-block-two{
+        padding: 1em 0.5em;
+        font-size: 1.2em;
+    }
+    #popup .mission-block-two .jeune-electeur-button{
+        font-size: 0.8em;
+        padding: 2px 0;
+    }
+    #popup #question-pc{
+        display: none;
+    }
+    #popup #question-mobile{
+        display: block;
+    }
+    #popup #info-proxynium{
+        display: none;
+    }
+    /*::::: popup :::::::::*/
+
+    /*::::: footer :::::::::*/
+    .footer .mobile-padding-footer{
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+    /*::::: footer :::::::::*/
 }
 
 @media all and (max-width: 489px){
 
     #menu{
         display: none;
+    }
+    .retour-button{
+        display: block;
     }
 
     /*:::::::::::::::: menu ::::::::::::::::::*/
@@ -412,5 +551,46 @@
         font-size: 4em;
     }
     /*:::::mission :::::::::*/
+
+    /*::::: popup :::::::::*/
+    #popup .mission-block-one .text{
+        font-size: 1em;
+    }
+    #popup .mission-block-two .electeur-button{
+        font-size: 0.8em;
+        display: block;
+        margin-top: 5px;
+    }
+    #popup .other-block .title{
+        font-size: 1.5em!important;
+    }
+    #popup .mission-block-one .title{
+        font-size: 1.3em;
+    }
+    #popup .mission-block-two{
+        padding: 1em 0.5em;
+        font-size: 1.2em;
+    }
+    #popup .mission-block-two .jeune-electeur-button{
+        font-size: 0.8em;
+        padding: 2px 0;
+    }
+    #popup #question-pc{
+        display: none;
+    }
+    #popup #question-mobile{
+        display: block;
+    }
+    #popup #info-proxynium{
+        display: none;
+    }
+    /*::::: popup :::::::::*/
+
+    /*::::: footer :::::::::*/
+    .footer .mobile-padding-footer{
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+    /*::::: footer :::::::::*/
 
 }
