@@ -244,6 +244,9 @@
     /*:::::mission :::::::::*/
 
     /*::::: popup :::::::::*/
+    .popup-body{
+        height: 1020px;
+    }
     #popup .mission-block-one .text{
         font-size: 1em;
     }
@@ -400,6 +403,10 @@
     /*:::::mission :::::::::*/
 
     /*::::: popup :::::::::*/
+    .popup-body{
+        height: 1020px;
+    }
+
     #popup .mission-block-one .text{
         font-size: 1em;
     }
@@ -553,6 +560,10 @@
     /*:::::mission :::::::::*/
 
     /*::::: popup :::::::::*/
+    .popup-body{
+        height: 1020px;
+    }
+
     #popup .mission-block-one .text{
         font-size: 1em;
     }
