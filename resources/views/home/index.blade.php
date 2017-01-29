@@ -109,37 +109,7 @@
             <div class="col-sm-10">
 
                 <div class="rubrique-one">
-                    <div class="block-white">
-
-                        <div class="row">
-                            <div class="col-sm-6 col-sm-offset-3 text-center">
-                                <div class="bloc-day">
-                                    <span class="title">
-                                        DAYS
-                                    </span>
-                                    <span class="content">
-                                        50
-                                    </span>
-                                </div>
-                                <div class="bloc-hour">
-                                    <span class="title">
-                                        HOURS
-                                    </span>
-                                    <span class="content">
-                                        18
-                                    </span>
-                                </div>
-                                <div class="bloc-minute">
-                                    <span class="title">
-                                        MINUTES
-                                    </span>
-                                    <span class="content">
-                                        45
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    @include('partials.block_white')
                     <div class="block-transparent">
 
                         <div class="text-one text-center">
@@ -164,7 +134,7 @@
                                 <a href="{{ route('vote.blanc') }}">Je vote blanc</a>
                             </div>
                             <div class="option-one">
-                                <a href="{{ route('abstenant') }}">Je m'abstien par conviction</a>
+                                <a href="{{ route('abstenant') }}">Je m'abstiens par conviction</a>
                             </div>
                             <div class="option-one">
                                 <a href="{{ route('fidele') }}">Je suis fidèle aux urnes</a>
