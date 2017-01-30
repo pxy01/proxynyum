@@ -15,6 +15,14 @@
         <!-- end menu -->
 
         <!-- 2eme block -->
+        <br>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="retour-button">
+                    <a href="{{route('index')}}"><i class="fa fa-reply" aria-hidden="true"></i> Retour</a>
+                </div>
+            </div>
+        </div>
         <div class="row">
             <div class="col-sm-1"></div>
             <div class="col-sm-10">
