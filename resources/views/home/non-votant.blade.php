@@ -55,22 +55,7 @@
                                                 COMMUNE ELECTORALE <sup>*</sup>
                                             </div>
                                             <div class="col-sm-6">
-                                                <select name="" id="" class="champ-formulaire">
-                                                    <option value="">Paris</option>
-                                                    <option value="">Nice</option>
-                                                    <option value="">Monaco</option>
-                                                    <option value="">Lyon</option>
-                                                    <option value="">Saint Etienne</option>
-                                                    <option value="">Nante</option>
-                                                    <option value="">Lile</option>
-                                                    <option value="">Brest</option>
-                                                    <option value="">Guingamp</option>
-                                                    <option value="">Marseille</option>
-                                                    <option value="">Rennes</option>
-                                                    <option value="">Bordeau</option>
-                                                    <option value="">Toulouse</option>
-                                                    <option value="">Nancy</option>
-                                                </select>
+                                                <input type="text" id="tags" class="form-control champ-formulaire" placeholder="Saisissez votre commune electorale">
                                             </div>
                                         </div>
 
