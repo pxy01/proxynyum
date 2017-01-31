@@ -13,7 +13,7 @@
 
         <div class="col-xs-4">
             <div class="logo">
-                <img src="{{ asset('img/logo.png') }}" alt="">
+                <a href="{{route('index')}}"><img src="{{ asset('img/logo.png') }}" alt=""></a>
             </div>
         </div>
         <div class="col-xs-4">
@@ -39,7 +39,7 @@
 
         <div class="col-xs-4">
             <div class="logo">
-                <img src="{{ asset('img/logo.png') }}" alt="">
+                <a href="{{route('index')}}"><img src="{{ asset('img/logo.png') }}" alt=""></a>
             </div>
         </div>
         <div class="col-xs-4"></div>

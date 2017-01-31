@@ -46,14 +46,19 @@
                             <div class="option-form">
 
                                 {{--<form action="" class="formulaire">--}}
-                                    {{ Form::open(['method' => 'GET', 'class' => 'formulaire']) }}
+                                    {{ Form::open(array('route' => 'non.votant.send','class' => 'formulaire')) }}
                                     <div class="form-group">
                                         <div class="row">
                                             <div class="col-sm-5 text-right champ-label">
                                                 ADRESSE MAIL:
                                             </div>
                                             <div class="col-sm-6">
-                                                <input type="text" class="form-control champ-formulaire" placeholder="@">
+                                                {{ Form::text('q', '', ['placeholder' =>  '@', 'class' => 'form-control champ-formulaire','name' => 'email'])}}
+                                                @if ($errors->has('email'))
+                                                    <span>
+                                                        <ul class="basic_error"><li>{{ $errors->first('email') }}</li></ul>
+                                                    </span>
+                                                @endif
                                             </div>
                                         </div>
 
@@ -64,7 +69,12 @@
                                                 COMMUNE ELECTORALE <sup>*</sup>
                                             </div>
                                             <div class="col-sm-6">
-                                                {{ Form::text('q', '', ['id' =>  'q', 'placeholder' =>  'Saisissez votre commune electorale', 'class' => 'form-control champ-formulaire'])}}
+                                                {{ Form::text('q', '', ['id' =>  'q', 'placeholder' =>  'Saisissez votre commune electorale', 'class' => 'form-control champ-formulaire','name' => 'commune'])}}
+                                                @if ($errors->has('commune'))
+                                                    <span>
+                                                        <ul class="basic_error"><li>{{ $errors->first('commune') }}</li></ul>
+                                                    </span>
+                                                @endif
                                                 {{--<input type="text" id="tags" class="form-control champ-formulaire" placeholder="Saisissez votre commune electorale">--}}
                                             </div>
                                         </div>
@@ -85,8 +95,9 @@
 
                             <div class="notice">
                              <sup>*</sup>Si vous avez un doute, contactez votre mairie pour connaître votre commune électorale
+                                <br><br>
+                                @include('partials.flash')
                             </div>
-
                         </div>
                     </div>
                 </div>
