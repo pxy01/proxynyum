@@ -45,7 +45,8 @@
                             </div>
                             <div class="option-form">
 
-                                <form action="" class="formulaire">
+                                {{--<form action="" class="formulaire">--}}
+                                    {{ Form::open(['method' => 'GET', 'class' => 'formulaire']) }}
                                     <div class="form-group">
                                         <div class="row">
                                             <div class="col-sm-5 text-right champ-label">
@@ -63,7 +64,8 @@
                                                 COMMUNE ELECTORALE <sup>*</sup>
                                             </div>
                                             <div class="col-sm-6">
-                                                <input type="text" id="tags" class="form-control champ-formulaire" placeholder="Saisissez votre commune electorale">
+                                                {{ Form::text('q', '', ['id' =>  'q', 'placeholder' =>  'Saisissez votre commune electorale', 'class' => 'form-control champ-formulaire'])}}
+                                                {{--<input type="text" id="tags" class="form-control champ-formulaire" placeholder="Saisissez votre commune electorale">--}}
                                             </div>
                                         </div>
 
@@ -71,12 +73,14 @@
                                     <div class="row">
                                         <div class="col-sm-5"></div>
                                         <div class="col-sm-6 text-left button-mobile-position">
-                                            <button class="button-style">
-                                                OK
-                                            </button>
+                                            {{ Form::submit('OK', array('class' => 'button-style')) }}
+                                            {{--<button class="button-style">--}}
+                                                {{--OK--}}
+                                            {{--</button>--}}
                                         </div>
                                     </div>
-                                </form>
+                                {{ Form::close() }}
+                                {{--</form>--}}
                             </div>
 
                             <div class="notice">
