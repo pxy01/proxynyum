@@ -39,26 +39,26 @@
                                     <div id="oui" class="electeur-button">oui</div>
                                 </div>
                                 <div class="col-xs-2">
-                                    <div id="oui" class="electeur-button">non</div>
+                                    <div id="non" class="electeur-button">non</div>
                                 </div>
                                 <div class="col-xs-3">
-                                    <div id="oui" class="jeune-electeur-button">je suis jeune <br> jamais inscrit<sup>*</sup></div>
+                                    <div id="jeune" class="jeune-electeur-button">je suis jeune <br> jamais inscrit<sup>*</sup></div>
                                 </div>
                                 <div class="col-xs-2"></div>
                             </div>
-                            <div class="row" id="question-mobile">
+                            <!--<div class="row" id="question-mobile">
                                 <div class="col-xs-1"></div>
                                 <div class="col-xs-3">
                                     <div id="oui" class="electeur-button">oui</div>
                                 </div>
                                 <div class="col-xs-3">
-                                    <div id="oui" class="electeur-button">non</div>
+                                    <div id="non" class="electeur-button">non</div>
                                 </div>
                                 <div class="col-xs-4">
-                                    <div id="oui" class="jeune-electeur-button">je suis jeune <br> jamais inscrit<sup>*</sup></div>
+                                    <div id="jeune" class="jeune-electeur-button">je suis jeune <br> jamais inscrit<sup>*</sup></div>
                                 </div>
                                 <div class="col-xs-1"></div>
-                            </div>
+                            </div>-->
 
                         </div>
                         <div class="mission-block-one other-block">

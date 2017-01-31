@@ -136,6 +136,9 @@
         padding: 2px 0;
     }
     #popup #question-pc{
+        display: block;
+    }
+    #popup .disable-in-mobile-first{
         display: none;
     }
     #popup #question-mobile{
@@ -267,7 +270,7 @@
         padding: 2px 0;
     }
     #popup #question-pc{
-        display: none;
+        display: block;
     }
     #popup #question-mobile{
         display: block;
@@ -411,9 +414,9 @@
         font-size: 1em;
     }
     #popup .mission-block-two .electeur-button{
-        font-size: 0.8em;
+        font-size: 0.7em;
         display: block;
-        margin-top: 5px;
+        margin-top: 2px;
     }
     #popup .other-block .title{
         font-size: 1.5em!important;
@@ -426,11 +429,11 @@
         font-size: 1.2em;
     }
     #popup .mission-block-two .jeune-electeur-button{
-        font-size: 0.8em;
-        padding: 2px 0;
+        font-size: 0.6em;
+        padding: 4px 0;
     }
     #popup #question-pc{
-        display: none;
+        display: block;
     }
     #popup #question-mobile{
         display: block;
@@ -568,9 +571,9 @@
         font-size: 1em;
     }
     #popup .mission-block-two .electeur-button{
-        font-size: 0.8em;
+        font-size: 0.5em;
         display: block;
-        margin-top: 5px;
+        margin-top: 1px;
     }
     #popup .other-block .title{
         font-size: 1.5em!important;
@@ -583,11 +586,11 @@
         font-size: 1.2em;
     }
     #popup .mission-block-two .jeune-electeur-button{
-        font-size: 0.8em;
+        font-size: 0.6em;
         padding: 2px 0;
     }
     #popup #question-pc{
-        display: none;
+        display: block;
     }
     #popup #question-mobile{
         display: block;
