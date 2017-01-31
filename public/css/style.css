@@ -207,7 +207,7 @@ body {
 }
 .formulaire .champ-formulaire{
     border: 0;
-    border-radius: 5px;
+    /*border-radius: 5px;*/
     padding: 5px;
     font-size: 14px;
     font-weight: 100;
