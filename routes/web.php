@@ -23,3 +23,4 @@ Route::get('/Je-vote-blanc', 'HomeController@voteBlanc')->name('vote.blanc');
 Route::get('/Je-m-abstien-par-conviction', 'HomeController@abstenant')->name('abstenant');
 Route::get('/Je-suis-fidele-aux-urnes', 'HomeController@fidele')->name('fidele');
 Route::get('/notre-mission', 'HomeController@mission')->name('mission');
+Route::get('search/autocomplete', 'SearchController@autocomplete');
