@@ -16,7 +16,11 @@
 });*/
 
 Route::get('/', 'HomeController@index')->name('index');
+
 Route::get('/Je-ne-peut-pas-me-deplacer-au-bureau-de-vote', 'HomeController@nonVotant')->name('non.votant');
+Route::post('/Je-ne-peut-pas-me-deplacer-au-bureau-de-vote', 'HomeController@nonVotantValidate')->name('non.votant.send');
+
+
 Route::get('/Je-vote-mais-j-hesite', 'HomeController@hesitant')->name('hesitant');
 Route::get('/Je-n-est-pas-le-temps-de-m-y-interesser', 'HomeController@nonInteresse')->name('non.interesse');
 Route::get('/Je-vote-blanc', 'HomeController@voteBlanc')->name('vote.blanc');

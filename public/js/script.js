@@ -103,7 +103,7 @@ $(document).ready(function() {
     {
         $( "#q" ).autocomplete({
             source: "search/autocomplete",
-            minLength: 2,
+            //minLength: 2,
             select: function(event, ui) {
                 $('#q').val(ui.item.value);
             }
