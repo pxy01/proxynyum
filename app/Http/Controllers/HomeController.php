@@ -26,7 +26,7 @@ class HomeController extends Controller
         $user_id = 1;
         $request->merge(['type_user_id' => $user_id]);
         PreinscriptionUser::create($request->all());
-        return redirect()->route('non.votant')->with('success', 'Votre demande à été prise en contact , nous vous recontacterons dans un bref délai');
+        return redirect()->route('non.votant')->with('success', 'Votre demande à été prise en compte , nous vous recontacterons dans un bref délai');
     }
 
     public function hesitant(){
@@ -41,12 +41,22 @@ class HomeController extends Controller
         $request->merge(['type_user_id' => $user_id]);
         //dd($request->all());
         PreinscriptionUser::create($request->all());
-        return redirect()->route('hesitant')->with('success', 'Votre demande à été prise en contact , nous vous recontacterons dans un bref délai');
+        return redirect()->route('hesitant')->with('success', 'Votre demande à été prise en compte , nous vous recontacterons dans un bref délai');
     }
 
     public function nonInteresse(){
 
         return view('home.non-interesse');
+    }
+    public function nonInteresseValidate(Request $request){
+        $this->validate($request, [
+            'email' => 'required|email|unique:preinscription_users',
+        ]);
+        $user_id = 3;
+        $request->merge(['type_user_id' => $user_id]);
+        //dd($request->all());
+        PreinscriptionUser::create($request->all());
+        return redirect()->route('non.interesse')->with('success', 'Votre demande à été prise en compte , nous vous recontacterons dans un bref délai');
     }
 
     public function voteBlanc(){
