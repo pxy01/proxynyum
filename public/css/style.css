@@ -127,37 +127,37 @@ body {
 .page2-background{
     background-image: url("../img/image2.png");
     background-repeat: no-repeat;
-    background-size: 100% 920px;
+    background-size: 100% 100%;
 }
 .page3-background{
     background-image: url("../img/image3.png");
     background-repeat: no-repeat;
-    background-size: 100% 920px;
+    background-size: 100% 100%;
 }
 .page4-background{
     background-image: url("../img/image4.png");
     background-repeat: no-repeat;
-    background-size: 100% 920px;
+    background-size: 100% 100%;
 }
 .page5-background{
     background-image: url("../img/image5.png");
     background-repeat: no-repeat;
-    background-size: 100% 920px;
+    background-size: 100% 100%;
 }
 .page6-background{
     background-image: url("../img/image6.png");
     background-repeat: no-repeat;
-    background-size: 100% 920px;
+    background-size: 100% 100%;
 }
 .page7-background{
     background-image: url("../img/image7.png");
     background-repeat: no-repeat;
-    background-size: 100% 920px;
+    background-size: 100% 100%;
 }
 .page9-background{
     background-image: url("../img/image.png");
     background-repeat: no-repeat;
-    background-size: 100% 980px;
+    background-size: 100% 100%;
 }
 
 .deuxieme-block .option-one{

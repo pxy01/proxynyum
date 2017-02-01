@@ -61,6 +61,7 @@
                                                 {{ Form::button('<i class="fa fa-angle-right" aria-hidden="true"></i>', array('type' => 'submit','class' => 'other-button-style')) }}
 
                                             </div>
+
                                         </div>
                                         @include('partials.flash')
                                     </div>
