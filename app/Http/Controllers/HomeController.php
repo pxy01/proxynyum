@@ -33,6 +33,16 @@ class HomeController extends Controller
 
         return view('home.hesitant');
     }
+    public function hesitantValidate(Request $request){
+        $this->validate($request, [
+            'email' => 'required|email|unique:preinscription_users',
+        ]);
+        $user_id = 2;
+        $request->merge(['type_user_id' => $user_id]);
+        //dd($request->all());
+        PreinscriptionUser::create($request->all());
+        return redirect()->route('hesitant')->with('success', 'Votre demande à été prise en contact , nous vous recontacterons dans un bref délai');
+    }
 
     public function nonInteresse(){
 

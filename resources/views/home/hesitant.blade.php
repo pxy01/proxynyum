@@ -45,22 +45,27 @@
                             </div>
                             <div class="option-form">
 
-                                <form action="" class="formulaire">
+                                {{ Form::open(array('route' => 'hesitant.send','class' => 'formulaire')) }}
                                     <div class="form-group">
                                         <div class="row">
                                             <div class="col-sm-5 mobile-position text-right" style="padding-top: 7px;">
                                                 ADRESSE MAIL:
                                             </div>
                                             <div class="col-sm-6">
-                                                <input type="text" class="form-control champ-formulaire" placeholder="@">
-                                                <button class="other-button-style">
-                                                    <i class="fa fa-angle-right" aria-hidden="true"></i>
-                                                </button>
+                                                {{ Form::text('q', '', ['placeholder' =>  '@', 'class' => 'form-control champ-formulaire','name' => 'email'])}}
+                                                @if ($errors->has('email'))
+                                                    <span>
+                                                        <ul class="basic_error"><li>{{ $errors->first('email') }}</li></ul>
+                                                    </span>
+                                                @endif
+                                                {{ Form::button('<i class="fa fa-angle-right" aria-hidden="true"></i>', array('type' => 'submit','class' => 'other-button-style')) }}
+
                                             </div>
                                         </div>
-
+                                        @include('partials.flash')
                                     </div>
-                                </form>
+                                {{ Form::close() }}
+
                             </div>
 
                         </div>

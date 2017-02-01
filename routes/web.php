@@ -22,6 +22,9 @@ Route::post('/Je-ne-peut-pas-me-deplacer-au-bureau-de-vote', 'HomeController@non
 
 
 Route::get('/Je-vote-mais-j-hesite', 'HomeController@hesitant')->name('hesitant');
+Route::post('/Je-vote-mais-j-hesite', 'HomeController@hesitantValidate')->name('hesitant.send');
+
+
 Route::get('/Je-n-est-pas-le-temps-de-m-y-interesser', 'HomeController@nonInteresse')->name('non.interesse');
 Route::get('/Je-vote-blanc', 'HomeController@voteBlanc')->name('vote.blanc');
 Route::get('/Je-m-abstien-par-conviction', 'HomeController@abstenant')->name('abstenant');
