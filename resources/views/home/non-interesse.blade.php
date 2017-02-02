@@ -68,11 +68,9 @@
                                         </div>
 
                                     </div>
-                                @include('partials.flash')
                                 {{ Form::close() }}
                             </div>
                             <div class="notice" style="margin-top: -2em;">
-                                <br>
                                 @include('partials.flash')
                             </div>
                         </div>
