@@ -52,17 +52,30 @@
                                                 ADRESSE MAIL:
                                             </div>
                                             <div class="col-sm-6">
-                                                <input type="text" class="form-control champ-formulaire" placeholder="@">
-                                                <button class="other-button-style">
-                                                    <i class="fa fa-angle-right" aria-hidden="true"></i>
-                                                </button>
+                                                <div class="row">
+                                                    <div class="col-sm-12">
+                                                        <div class="form-group">
+                                                            <input type="text" class="form-control champ-formulaire" placeholder="@">
+                                                            <button class="other-button-style">
+                                                                <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                                            </button>
+                                                            @if ($errors->has('email'))
+                                                                <span>
+                                                                    <ul class="basic_error"><li>{{ $errors->first('email') }}</li></ul>
+                                                                </span>
+                                                            @endif
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
-
                                     </div>
                                 </form>
                             </div>
-
+                            <div class="notice" style="margin-top: -2em;">
+                                <br>
+                                @include('partials.flash')
+                            </div>
                         </div>
                     </div>
                 </div>

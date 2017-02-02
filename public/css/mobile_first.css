@@ -30,6 +30,8 @@
     }
     /*::::: popup :::::::::*/
 
+
+
 }
 @media all and (min-width: 960px) and (max-width: 991px){
 
@@ -69,6 +71,7 @@
 
 
 
+
 }
 
 @media all and (min-width: 770px) and (max-width: 959px){
@@ -88,10 +91,6 @@
         width: 90px;
         padding: 10px;
     }
-    .formulaire .champ-formulaire{
-        font-size: 14px;
-        width: 250px;
-    }
     .formulaire .champ-label{
         font-size: 16px;
         padding-top: 7px;
@@ -100,8 +99,9 @@
         font-size: 10px;
     }
     .formulaire .other-button-style{
-        right: -3em;
+        left: 18em;
     }
+
 
     /*:::::mission :::::::::*/
 
@@ -211,16 +211,14 @@
         text-align: center !important;
     }
     .formulaire .other-button-style{
-        right: -1em;
+        left: 18em;
     }
+
     .formulaire .champ-label{
         text-align: center !important;
     }
     .formulaire .button-mobile-position{
         text-align: center;
-    }
-    .page2-background{
-        background-size: 100% 970px;
     }
     .rubrique-one .text-two{
         padding: 0.5em 2em;
@@ -361,16 +359,13 @@
         text-align: center !important;
     }
     .formulaire .other-button-style{
-        right: -1em;
+        left: 18em;
     }
     .formulaire .champ-label{
         text-align: center !important;
     }
     .formulaire .button-mobile-position{
         text-align: center;
-    }
-    .page2-background{
-        background-size: 100% 970px;
     }
     .rubrique-one .text-two{
         padding: 0.5em;
@@ -519,16 +514,13 @@
         text-align: center !important;
     }
     .formulaire .other-button-style{
-        right: -1em;
+        left: 18em;
     }
     .formulaire .champ-label{
         text-align: center !important;
     }
     .formulaire .button-mobile-position{
         text-align: center;
-    }
-    .page2-background{
-        background-size: 100% 970px;
     }
     .rubrique-one .text-two{
         padding: 0.5em;
@@ -538,7 +530,7 @@
         font-size: 18px;
     }
     .option-block .option-one a{
-        font-size: 16px;
+        font-size: 14px;
     }
     /*:::::mission :::::::::*/
 
