@@ -26,6 +26,8 @@ Route::post('/Je-vote-mais-j-hesite', 'HomeController@hesitantValidate')->name('
 
 
 Route::get('/Je-n-est-pas-le-temps-de-m-y-interesser', 'HomeController@nonInteresse')->name('non.interesse');
+Route::post('/Je-n-est-pas-le-temps-de-m-y-interesser', 'HomeController@nonInteresseValidate')->name('non.interesse.send');
+
 Route::get('/Je-vote-blanc', 'HomeController@voteBlanc')->name('vote.blanc');
 Route::get('/Je-m-abstien-par-conviction', 'HomeController@abstenant')->name('abstenant');
 Route::get('/Je-suis-fidele-aux-urnes', 'HomeController@fidele')->name('fidele');
