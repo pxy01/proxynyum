@@ -51,22 +51,28 @@
                                                 ADRESSE MAIL:
                                             </div>
                                             <div class="col-sm-6">
-                                                {{ Form::text('q', '', ['placeholder' =>  '@', 'class' => 'form-control champ-formulaire','name' => 'email'])}}
-                                                @if ($errors->has('email'))
-                                                    <span>
-                                                        <ul class="basic_error"><li>{{ $errors->first('email') }}</li></ul>
-                                                    </span>
-                                                @endif
-                                                {{ Form::button('<i class="fa fa-angle-right" aria-hidden="true"></i>', array('type' => 'submit','class' => 'other-button-style')) }}
-
+                                                <div class="row">
+                                                    <div class="col-sm-12">
+                                                        <div class="form-group">
+                                                            {{ Form::text('q', '', ['placeholder' =>  '@', 'class' => 'form-control champ-formulaire','name' => 'email'])}}
+                                                            @if ($errors->has('email'))
+                                                                <span>
+                                                                    <ul class="basic_error"><li>{{ $errors->first('email') }}</li></ul>
+                                                                </span>
+                                                            @endif
+                                                            {{ Form::button('<i class="fa fa-angle-right" aria-hidden="true"></i>', array('type' => 'submit','class' => 'other-button-style')) }}
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
 
                                     </div>
-                                @include('partials.flash')
                                 {{ Form::close() }}
                             </div>
-
+                            <div class="notice" style="margin-top: -2em;">
+                                @include('partials.flash')
+                            </div>
                         </div>
                     </div>
                 </div>
