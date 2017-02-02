@@ -3,7 +3,7 @@
         <div class="col-sm-6 col-sm-offset-3 text-center">
             <div class="bloc-day">
                                     <span class="title">
-                                        DAYS
+                                        JOURS
                                     </span>
                 <span class="content">
                                         50
@@ -11,7 +11,7 @@
             </div>
             <div class="bloc-hour">
                                     <span class="title">
-                                        HOURS
+                                        HEURES
                                     </span>
                 <span class="content">
                                         18
@@ -20,6 +20,14 @@
             <div class="bloc-minute">
                                     <span class="title">
                                         MINUTES
+                                    </span>
+                <span class="content">
+                                        45
+                                    </span>
+            </div>
+            <div class="bloc-minute">
+                                    <span class="title">
+                                        SECONDES
                                     </span>
                 <span class="content">
                                         45

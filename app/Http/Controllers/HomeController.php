@@ -63,6 +63,17 @@ class HomeController extends Controller
 
         return view('home.vote-blanc');
     }
+    public function voteBlancValidate(Request $request){
+
+        $this->validate($request, [
+            'email' => 'required|email|unique:preinscription_users',
+        ]);
+        $user_id = 4;
+        $request->merge(['type_user_id' => $user_id]);
+        //dd($request->all());
+        PreinscriptionUser::create($request->all());
+        return redirect()->route('vote.blanc')->with('success', 'Votre demande à été prise en compte , nous vous recontacterons dans un bref délai');
+    }
 
     public function abstenant(){
 
