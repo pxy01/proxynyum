@@ -112,6 +112,7 @@
 <script src="//cdn.tinymce.com/4/tinymce.min.js"></script>
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 <script src="{{ URL::asset('js/jquery.syotimer.js') }}"></script>
+<script type="text/javascript" id="cookiebanner" src="http://cookiebanner.eu/js/cookiebanner.min.js" data-position="bottom" data-fg="#ffffff" data-bg="#424242" data-link="#dddddd" data-moreinfo="http://www.cnil.fr/vos-obligations/sites-web-cookies-et-autres-traceurs/que-dit-la-loi/" data-message="Les cookies assurent le bon fonctionnement de notre site Internet. En utilisant ce dernier, vous acceptez leur utilisation." data-linkmsg="En savoir plus"></script>
 <script src="{{ URL::asset('js/script.js') }}"></script>
 
 @yield('js_script')
