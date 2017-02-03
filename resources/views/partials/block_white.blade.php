@@ -2,7 +2,8 @@
 
 
     <div class="row">
-        {{--<div class="col-sm-6 col-sm-offset-3 text-center">--}}
+        <div class="col-sm-8 col-sm-offset-2 text-center">
+            <div id="simple_timer"></div>
             {{--<div class="bloc-day">--}}
                                     {{--<span class="title">--}}
                                         {{--JOURS--}}
@@ -35,7 +36,6 @@
                                         {{--45--}}
                                     {{--</span>--}}
             {{--</div>--}}
-        {{--</div>--}}
-        <div id="simple_timer"></div>
+        </div>
     </div>
 </div>

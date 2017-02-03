@@ -30,6 +30,37 @@
     }
     /*::::: popup :::::::::*/
 
+    /*:::::::::::::::::::::: partial block white :::::::::::::::::::::::::*/
+    #simple_timer{
+        padding: 0;
+    }
+    #simple_timer .timer-body-block{
+        padding-left: 0;
+    }
+    #simple_timer .table-cell{
+        margin-right: 2em;
+        margin-left: 2em;
+    }
+    #simple_timer .table-cell .tab-val{
+        font-size: 5em;
+        margin-top: 0.4em;
+    }
+    #simple_timer .table-cell .tab-metr{
+        font-size: 1em;
+        margin-top: 15px;
+    }
+    #simple_timer .day .tab-metr{
+        padding-left: 1em;
+    }
+    #simple_timer .hour .tab-metr{
+        padding-left: 0.5em;
+    }
+    #simple_timer .minute .tab-metr{
+        padding-left: 0.6em;
+    }
+    #simple_timer .second .tab-metr{
+        padding-left: 0;
+    }
 
 
 }
@@ -70,6 +101,37 @@
     /*::::: popup :::::::::*/
 
 
+    /*:::::::::::::::::::::: partial block white :::::::::::::::::::::::::*/
+    #simple_timer .timer-body-block{
+        padding-left: 1.1em;
+    }
+    #simple_timer .timer-body-block{
+        padding-left: 0;
+    }
+    #simple_timer .table-cell{
+        margin-right: 1.8em;
+        margin-left: 1.8em;
+    }
+    #simple_timer .table-cell .tab-val{
+        font-size: 5em;
+        margin-top: 0.4em;
+    }
+    #simple_timer .table-cell .tab-metr{
+        font-size: 1em;
+        margin-top: 15px;
+    }
+    #simple_timer .day .tab-metr{
+        padding-left: 1em;
+    }
+    #simple_timer .hour .tab-metr{
+        padding-left: 0.5em;
+    }
+    #simple_timer .minute .tab-metr{
+        padding-left: 0.6em;
+    }
+    #simple_timer .second .tab-metr{
+        padding-left: 0;
+    }
 
 
 }
@@ -145,6 +207,38 @@
         display: block;
     }
     /*::::: popup :::::::::*/
+
+    /*:::::::::::::::::::::: partial block white :::::::::::::::::::::::::*/
+    #simple_timer .timer-body-block{
+        padding-left: 0.5em;
+    }
+    #simple_timer .timer-body-block{
+        padding-left: 0;
+    }
+    #simple_timer .table-cell{
+        margin-right: 1em;
+        margin-left: 1em;
+    }
+    #simple_timer .table-cell .tab-val{
+        font-size: 4.5em;
+        margin-top: 0.5em;
+    }
+    #simple_timer .table-cell .tab-metr{
+        font-size: 1em;
+        margin-top: 18px;
+    }
+    #simple_timer .day .tab-metr{
+        padding-left: 0.8em;
+    }
+    #simple_timer .hour .tab-metr{
+        padding-left: 0.5em;
+    }
+    #simple_timer .minute .tab-metr{
+        padding-left: 0.2em;
+    }
+    #simple_timer .second .tab-metr{
+        padding-left: 0;
+    }
 
 }
 @media all and (min-width: 650px) and (max-width: 769px){
@@ -287,6 +381,38 @@
 
     .retour-button{
         display: block;
+    }
+
+    /*:::::::::::::::::::::: partial block white :::::::::::::::::::::::::*/
+    #simple_timer .timer-body-block{
+        padding-left: 0.5em;
+    }
+    #simple_timer .timer-body-block{
+        padding-left: 0;
+    }
+    #simple_timer .table-cell{
+        margin-right: 1em;
+        margin-left: 1em;
+    }
+    #simple_timer .table-cell .tab-val{
+        font-size: 4.5em;
+        margin-top: 0.5em;
+    }
+    #simple_timer .table-cell .tab-metr{
+        font-size: 1em;
+        margin-top: 18px;
+    }
+    #simple_timer .day .tab-metr{
+        padding-left: 0.8em;
+    }
+    #simple_timer .hour .tab-metr{
+        padding-left: 0.5em;
+    }
+    #simple_timer .minute .tab-metr{
+        padding-left: 0.2em;
+    }
+    #simple_timer .second .tab-metr{
+        padding-left: 0;
     }
 
 }
@@ -444,6 +570,38 @@
         padding-bottom: 1em;
     }
     /*::::: footer :::::::::*/
+
+    /*:::::::::::::::::::::: partial block white :::::::::::::::::::::::::*/
+    #simple_timer .timer-body-block{
+        padding-left: 0.5em;
+    }
+    #simple_timer .timer-body-block{
+        padding-left: 0;
+    }
+    #simple_timer .table-cell{
+        margin-right: 1em;
+        margin-left: 1em;
+    }
+    #simple_timer .table-cell .tab-val{
+        font-size: 4.5em;
+        margin-top: 0.5em;
+    }
+    #simple_timer .table-cell .tab-metr{
+        font-size: 1em;
+        margin-top: 18px;
+    }
+    #simple_timer .day .tab-metr{
+        padding-left: 0.8em;
+    }
+    #simple_timer .hour .tab-metr{
+        padding-left: 0.5em;
+    }
+    #simple_timer .minute .tab-metr{
+        padding-left: 0.2em;
+    }
+    #simple_timer .second .tab-metr{
+        padding-left: 0;
+    }
 }
 
 @media all and (max-width: 489px){
@@ -598,5 +756,37 @@
         padding-bottom: 1em;
     }
     /*::::: footer :::::::::*/
+
+    /*:::::::::::::::::::::: partial block white :::::::::::::::::::::::::*/
+    #simple_timer .timer-body-block{
+        padding-left: 0.5em;
+    }
+    #simple_timer .timer-body-block{
+        padding-left: 0;
+    }
+    #simple_timer .table-cell{
+        margin-right: 1em;
+        margin-left: 1em;
+    }
+    #simple_timer .table-cell .tab-val{
+        font-size: 4.5em;
+        margin-top: 0.5em;
+    }
+    #simple_timer .table-cell .tab-metr{
+        font-size: 1em;
+        margin-top: 18px;
+    }
+    #simple_timer .day .tab-metr{
+        padding-left: 0.8em;
+    }
+    #simple_timer .hour .tab-metr{
+        padding-left: 0.5em;
+    }
+    #simple_timer .minute .tab-metr{
+        padding-left: 0.2em;
+    }
+    #simple_timer .second .tab-metr{
+        padding-left: 0;
+    }
 
 }

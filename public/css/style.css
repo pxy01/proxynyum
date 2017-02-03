@@ -443,3 +443,42 @@ body {
     border-color: #DB2828 !important;
     font-weight: bold;
 }
+
+/*:::::::::::::::::::::: partial block white :::::::::::::::::::::::::*/
+#simple_timer{
+    z-index: 99;
+}
+#simple_timer .timer-body-block{
+    padding-left: 4em;
+}
+#simple_timer .table-cell{
+    display: inline-block;
+    color: #FFF;
+    margin-right: 5em;
+}
+#simple_timer .table-cell .tab-val{
+    color: #FFF;
+    font-weight: 500;
+    font-size: 6em;
+    position: absolute;
+    margin-top: 17px;
+}
+#simple_timer .table-cell .tab-metr{
+    color: #FFF;
+    font-weight: bold !important;
+    font-size: 1em;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+#simple_timer .day .tab-metr{
+    padding-left: 1.5em;
+}
+#simple_timer .hour .tab-metr{
+    padding-left: 1.1em;
+}
+#simple_timer .minute .tab-metr{
+    padding-left: 1.1em;
+}
+#simple_timer .second .tab-metr{
+    padding-left: .6em;
+}
