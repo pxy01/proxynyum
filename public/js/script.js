@@ -69,35 +69,6 @@ $(document).ready(function() {
     }
 
 
-    // $( function() {
-    //     var availableTags = [
-    //         "ActionScript",
-    //         "AppleScript",
-    //         "Asp",
-    //         "BASIC",
-    //         "C",
-    //         "C++",
-    //         "Clojure",
-    //         "COBOL",
-    //         "ColdFusion",
-    //         "Erlang",
-    //         "Fortran",
-    //         "Groovy",
-    //         "Haskell",
-    //         "Java",
-    //         "JavaScript",
-    //         "Lisp",
-    //         "Perl",
-    //         "PHP",
-    //         "Python",
-    //         "Ruby",
-    //         "Scala",
-    //         "Scheme"
-    //     ];
-    //     $( "#tags" ).autocomplete({
-    //         source: availableTags,
-    //     });
-    // } );
 
     $(function()
     {
@@ -109,5 +80,13 @@ $(document).ready(function() {
             }
         });
     });
+    console.log('syo')
 
+    $('#simple_timer').syotimer({
+        year: 2017,
+        month: 3,
+        day: 26,
+        hour: 20,
+        minute: 30
+    });
 });
