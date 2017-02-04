@@ -1,6 +1,6 @@
 
 /*::::::::::::::::::::::::::::::::::: affichage tablette :::::::::::::::::::::::::*/
-@media all and (min-width: 992px) and (max-width: 1075px){
+@media all and (min-width: 992px){
     #menu .accueil,#menu .mission{
         padding: 2.5em 1.5em;
     }
