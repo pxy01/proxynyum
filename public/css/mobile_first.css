@@ -160,8 +160,14 @@
     .formulaire .champ-label sup{
         font-size: 10px;
     }
+    .formulaire .champ-formulaire{
+         width: 300px;
+     }
     .formulaire .other-button-style{
-        left: 18em;
+        left: 17.3em;
+    }
+    .basic_error{
+        width: 300px;
     }
 
 
@@ -304,9 +310,6 @@
     .formulaire .mobile-position{
         text-align: center !important;
     }
-    .formulaire .other-button-style{
-        left: 18em;
-    }
 
     .formulaire .champ-label{
         text-align: center !important;
@@ -317,6 +320,15 @@
     .rubrique-one .text-two{
         padding: 0.5em 2em;
 
+    }
+    .formulaire .champ-formulaire{
+        width: 300px;
+    }
+    .formulaire .other-button-style{
+        left: 17.3em;
+    }
+    .basic_error{
+        width: 300px;
     }
 
     /*:::::mission :::::::::*/
@@ -484,9 +496,17 @@
     .formulaire .mobile-position{
         text-align: center !important;
     }
-    .formulaire .other-button-style{
-        left: 18em;
+
+    .formulaire .champ-formulaire{
+        width: 300px;
     }
+    .formulaire .other-button-style{
+        left: 17.3em;
+    }
+    .basic_error{
+        width: 300px;
+    }
+
     .formulaire .champ-label{
         text-align: center !important;
     }
@@ -671,9 +691,17 @@
     .formulaire .mobile-position{
         text-align: center !important;
     }
-    .formulaire .other-button-style{
-        left: 18em;
+
+    .formulaire .champ-formulaire{
+        width: 300px;
     }
+    .formulaire .other-button-style{
+        left: 17.3em;
+    }
+    .basic_error{
+        width: 300px;
+    }
+
     .formulaire .champ-label{
         text-align: center !important;
     }
