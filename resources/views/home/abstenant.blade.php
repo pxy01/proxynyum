@@ -1,7 +1,7 @@
 @extends('layout.layout')
 
 @section('title')
-    Je m'abstien par conviction
+    Proxynium
 @endsection
 
 

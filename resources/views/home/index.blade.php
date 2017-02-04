@@ -184,9 +184,9 @@
                     ifpermanent = '';
                 document.cookie = nom + '=' + escape(valeur) + ifpermanent;
             }
-            console.log('prem' + ScanCookie("dejapopup"));
+            //console.log('prem' + ScanCookie("dejapopup"));
             if (ScanCookie("dejapopup") == 'oui') {
-                console.log('deux' + ScanCookie("dejapopup"));
+                //console.log('deux' + ScanCookie("dejapopup"));
                 $('.popup-body').fadeOut('hide');
                 document.getElementById("footer").style.display = "block";
             }

@@ -1,7 +1,7 @@
 @extends('layout.layout')
 
 @section('title')
-    Notre Mission
+    Proxynium | Notre Mission
 @endsection
 
 

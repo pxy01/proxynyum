@@ -1,7 +1,7 @@
 @extends('layout.layout')
 
 @section('title')
-    Je ne peut pas me déplacer au bureau de vote
+    Proxynium
 @endsection
 
 

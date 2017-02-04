@@ -1,7 +1,7 @@
 @extends('layout.layout')
 
 @section('title')
-    Je n'est pas le temps de m'y intéresser
+    Proxynium
 @endsection
 
 

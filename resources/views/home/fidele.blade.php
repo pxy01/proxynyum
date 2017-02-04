@@ -1,7 +1,7 @@
 @extends('layout.layout')
 
 @section('title')
-    Je suis fidèle aux urnes
+    Proxynium
 @endsection
 
 
