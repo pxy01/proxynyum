@@ -4,19 +4,25 @@
 
 $(document).ready(function() {
 
+    indice = 0;
+
     $('#nav').click(function () {
 
-        document.getElementById("sous-menu").style.marginLeft = "0";
-        document.getElementById("sous-menu").style.transition = "0.2s";
-        document.getElementById("nav").style.display = "none";
-        document.getElementById("close-nav").style.display = "block";
-    });
+        if (indice == 0){
 
-    $('#close-nav').click(function () {
-        document.getElementById("sous-menu").style.marginLeft = "-100%";
-        document.getElementById("sous-menu").style.transition = "0.2s";
-        document.getElementById("close-nav").style.display = "none";
-        document.getElementById("nav").style.display = "block";
+            document.getElementById("sous-menu").style.marginLeft = "0";
+            document.getElementById("sous-menu").style.transition = "0.2s";
+
+            indice = 1;
+        }else{
+
+            document.getElementById("sous-menu").style.marginLeft = "-100%";
+            document.getElementById("sous-menu").style.transition = "0.2s";
+
+            indice = 0;
+        }
+
+
     });
 
 

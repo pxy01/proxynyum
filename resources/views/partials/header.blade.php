@@ -33,7 +33,6 @@
             <div class="accueil" id="accueil">
 
                 <i id="nav" class="fa fa-bars" aria-hidden="true"></i>
-                <i id="close-nav" class="fa fa-times" aria-hidden="true"></i>
 
             </div>
         </div>
