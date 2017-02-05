@@ -260,6 +260,9 @@
         padding: 1em;
         background-color: rgba(255,255,255,0.9);
         display: block;
+        overflow: hidden;
+        z-index: 9999; !important;
+        position: relative;
     }
     #menu-mobile .logo img{
         width: 100px;
@@ -273,32 +276,38 @@
         color: #4A4A4A;
         font-size: 3em;
     }
-
-    #menu-mobile #sous-menu{
+    #menu-mobile .accueil #close-nav{
         display: none;
     }
-    #menu-mobile .sous-menu{
+
+    #sous-menu{
+        display: block;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        z-index: 1;
+        margin-left: -100%;
+    }
+    #sous-menu .sous-menu{
         text-align: center;
         width: 100%;
         position: absolute;
         left: 0;
-        z-index: 99;
-        top: 1.1em;
     }
-    #menu-mobile .sous-menu .quel-electeur,#menu-mobile .sous-menu .mission{
+    #sous-menu .sous-menu .quel-electeur,#sous-menu .sous-menu .mission{
         padding: 1em;
         background-color: rgba(70,70,70,0.9);
         color: #FFF;
         text-transform: uppercase;
         font-size: 1.5em;
     }
-    #menu-mobile .sous-menu .mission{
+    #sous-menu .sous-menu .mission{
         border-top: 2px solid #FADB00;
     }
-    #menu-mobile .sous-menu .quel-electeur a,#menu-mobile .sous-menu .mission a{
+    #sous-menu .sous-menu .quel-electeur a,#sous-menu .sous-menu .mission a{
         color: #FFF;
     }
-    #menu-mobile .sous-menu .quel-electeur a:hover,#menu-mobile .sous-menu .mission a:hover{
+    #sous-menu .sous-menu .quel-electeur a:hover,#sous-menu .sous-menu .mission a:hover{
         color: #FFF;
         text-decoration: none;
     }
@@ -446,6 +455,9 @@
         padding: 1em;
         background-color: rgba(255,255,255,0.9);
         display: block;
+        overflow: hidden;
+        z-index: 9999; !important;
+        position: relative;
     }
     #menu-mobile .logo img{
         width: 100px;
@@ -459,32 +471,38 @@
         color: #4A4A4A;
         font-size: 3em;
     }
-
-    #menu-mobile #sous-menu{
+    #menu-mobile .accueil #close-nav{
         display: none;
     }
-    #menu-mobile .sous-menu{
+
+    #sous-menu{
+        display: block;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        z-index: 1;
+        margin-left: -100%;
+    }
+    #sous-menu .sous-menu{
         text-align: center;
         width: 100%;
         position: absolute;
         left: 0;
-        z-index: 99;
-        top: 1.1em;
     }
-    #menu-mobile .sous-menu .quel-electeur,#menu-mobile .sous-menu .mission{
+    #sous-menu .sous-menu .quel-electeur,#sous-menu .sous-menu .mission{
         padding: 1em;
         background-color: rgba(70,70,70,0.9);
         color: #FFF;
         text-transform: uppercase;
         font-size: 1.5em;
     }
-    #menu-mobile .sous-menu .mission{
+    #sous-menu .sous-menu .mission{
         border-top: 2px solid #FADB00;
     }
-    #menu-mobile .sous-menu .quel-electeur a,#menu-mobile .sous-menu .mission a{
+    #sous-menu .sous-menu .quel-electeur a,#sous-menu .sous-menu .mission a{
         color: #FFF;
     }
-    #menu-mobile .sous-menu .quel-electeur a:hover,#menu-mobile .sous-menu .mission a:hover{
+    #sous-menu .sous-menu .quel-electeur a:hover,#sous-menu .sous-menu .mission a:hover{
         color: #FFF;
         text-decoration: none;
     }
@@ -641,6 +659,9 @@
         padding: 1em;
         background-color: rgba(255,255,255,0.9);
         display: block;
+        overflow: hidden;
+        z-index: 9999; !important;
+        position: relative;
     }
     #menu-mobile .logo img{
         width: 100px;
@@ -654,32 +675,38 @@
         color: #4A4A4A;
         font-size: 3em;
     }
-
-    #menu-mobile #sous-menu{
+    #menu-mobile .accueil #close-nav{
         display: none;
     }
-    #menu-mobile .sous-menu{
+
+    #sous-menu{
+        display: block;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        z-index: 1;
+        margin-left: -100%;
+    }
+    #sous-menu .sous-menu{
         text-align: center;
         width: 100%;
         position: absolute;
         left: 0;
-        z-index: 99;
-        top: 1.1em;
     }
-    #menu-mobile .sous-menu .quel-electeur,#menu-mobile .sous-menu .mission{
+    #sous-menu .sous-menu .quel-electeur,#sous-menu .sous-menu .mission{
         padding: 1em;
         background-color: rgba(70,70,70,0.9);
         color: #FFF;
         text-transform: uppercase;
         font-size: 1.5em;
     }
-    #menu-mobile .sous-menu .mission{
+    #sous-menu .sous-menu .mission{
         border-top: 2px solid #FADB00;
     }
-    #menu-mobile .sous-menu .quel-electeur a,#menu-mobile .sous-menu .mission a{
+    #sous-menu .sous-menu .quel-electeur a,#sous-menu .sous-menu .mission a{
         color: #FFF;
     }
-    #menu-mobile .sous-menu .quel-electeur a:hover,#menu-mobile .sous-menu .mission a:hover{
+    #sous-menu .sous-menu .quel-electeur a:hover,#sous-menu .sous-menu .mission a:hover{
         color: #FFF;
         text-decoration: none;
     }

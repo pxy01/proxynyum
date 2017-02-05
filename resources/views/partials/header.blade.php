@@ -30,9 +30,10 @@
     <div id="menu-mobile">
 
         <div class="col-xs-4">
-            <div class="accueil">
+            <div class="accueil" id="accueil">
 
                 <i id="nav" class="fa fa-bars" aria-hidden="true"></i>
+                <i id="close-nav" class="fa fa-times" aria-hidden="true"></i>
 
             </div>
         </div>
@@ -44,14 +45,15 @@
         </div>
         <div class="col-xs-4"></div>
 
-        <div class="col-xs-12" id="sous-menu">
-            <div class="sous-menu">
-                <div class="quel-electeur">
-                    <a href="{{ route('index') }}">quel électeur suis-je ?</a>
-                </div>
-                <div class="mission">
-                    <a href="{{ route('mission') }}">notre mission</a>
-                </div>
+    </div>
+
+    <div class="col-xs-12" id="sous-menu">
+        <div class="sous-menu">
+            <div class="quel-electeur">
+                <a href="{{ route('index') }}">quel électeur suis-je ?</a>
+            </div>
+            <div class="mission">
+                <a href="{{ route('mission') }}">notre mission</a>
             </div>
         </div>
     </div>

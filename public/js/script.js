@@ -3,19 +3,22 @@
  */
 
 $(document).ready(function() {
-    var indice = 0;
 
     $('#nav').click(function () {
 
-        if (indice == 0) {
-            $('#sous-menu').fadeIn('show');
-            indice = 1;
-        } else {
-            $('#sous-menu').fadeOut('hide');
-            indice = 0;
-        }
-
+        document.getElementById("sous-menu").style.marginLeft = "0";
+        document.getElementById("sous-menu").style.transition = "0.2s";
+        document.getElementById("nav").style.display = "none";
+        document.getElementById("close-nav").style.display = "block";
     });
+
+    $('#close-nav').click(function () {
+        document.getElementById("sous-menu").style.marginLeft = "-100%";
+        document.getElementById("sous-menu").style.transition = "0.2s";
+        document.getElementById("close-nav").style.display = "none";
+        document.getElementById("nav").style.display = "block";
+    });
+
 
     //console.log('test test');
     // window.onload = function () {
