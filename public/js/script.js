@@ -98,4 +98,8 @@ $(document).ready(function() {
         hour: 20,
         minute: 30
     });
+
+    $('.tooltip').tooltipster({
+        theme: 'tooltipster-noir'
+    });
 });

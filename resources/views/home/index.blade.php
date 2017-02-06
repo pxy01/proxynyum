@@ -42,7 +42,7 @@
                                     <div id="non" class="electeur-button">non</div>
                                 </div>
                                 <div class="col-xs-3">
-                                    <div id="jeune" class="jeune-electeur-button">je suis jeune <br> jamais inscrit<sup>*</sup></div>
+                                    <div id="jeune" class="jeune-electeur-button tooltip" title="Si vous avez eu 18 ans avant 2017 ou si vous allez avoir 18 ans en 2017 avant le 1er tour des élections, vous êtes inscrit d’office sur les listes électorales, à condition d’avoir été recensé à 16 ans par l’Insee.">je suis jeune <br> jamais inscrit<sup>*</sup></div>
                                 </div>
                                 <div class="col-xs-2"></div>
                             </div>
@@ -66,9 +66,8 @@
                                 <div class="col-sm-12">
                                     <div class="text">
 
-                                        <sup>*</sup> Si vous avez eu 18 ans avant 2017 ou si vous allez avoir 18 ans en 2017 avant le 1er tour des élections, vous êtes automatiquement inscrit sur les listes électorales par votre mairie où vous habitez à 16 ans au moment du recencement. Sauf radiation par la mairie, vous êtes toujours inscrit sur les listes électorales.
+                                        {{--<sup>*</sup> Si vous avez eu 18 ans avant 2017 ou si vous allez avoir 18 ans en 2017 avant le 1er tour des élections, vous êtes automatiquement inscrit sur les listes électorales par votre mairie où vous habitez à 16 ans au moment du recencement. Sauf radiation par la mairie, vous êtes toujours inscrit sur les listes électorales.--}}
                                         <p id="info-proxynium">
-                                            <br><br>
                                             Les informations recueilles sont destinées et traitées uniquement par note startup Proxynium. A la fin des élections présidentielles et législatives, toutes les informations vous concernant seront supprimées. Vous pouvez demander à accéder, faire rectifier ou supprimer les informations vous concernant ou vous opposer à leur traitment par la startup Proxynium en envoyant un courriel aux coordonnées précisées dans les CGU.
                                         </p>
                                     </div>
