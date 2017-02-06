@@ -55,13 +55,13 @@
                         proxynium
                     </span>
                     <br><br>
-                    <a class="footer-link" href="">Mission</a>
+                    <a class="footer-link" href="{{route('mission')}}">Mission</a>
 
-                    <a class="footer-link" href="">Notre Cagnotte</a>
+                    <a target="_blank" class="footer-link" href="https://www.leetchi.com/c/projets-adopteunvote">Notre Cagnotte</a>
 
-                    <a href=""><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
-                    <a href=""><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
-                    <a href=""><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
+                    <a href="https://www.facebook.com/Adopte-Un-Vote-Officiel-1243704525664627/?fref=ts" target="_blank"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+                    <a href="https://twitter.com/Proxy_Vote" target="_blank"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+                    <a href="https://www.linkedin.com/company/proxynium" target="_blank"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
 
                 </div>
                 <div class="col-sm-4 text-center mobile-padding-footer">
