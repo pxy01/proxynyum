@@ -94,7 +94,7 @@ $(document).ready(function() {
     $('#simple_timer').syotimer({
         year: 2017,
         month: 3,
-        day: 26,
+        day: 21,
         hour: 20,
         minute: 30
     });
