@@ -100,6 +100,6 @@ $(document).ready(function() {
     });
 
     $('.tooltip').tooltipster({
-        theme: 'tooltipster-noir'
+        theme: 'tooltipster-punk'
     });
 });

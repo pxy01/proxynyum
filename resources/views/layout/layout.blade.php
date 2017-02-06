@@ -12,6 +12,7 @@
     <link href="{{ URL::asset('css/bootstrap.min.css') }}" rel="stylesheet">
     <link href="{{ URL::asset('css/bootstrap-theme.min.css') }}" rel="stylesheet">
     <link href="{{ URL::asset('plugins/dist/css/tooltipster.bundle.min.css') }}" rel="stylesheet">
+    <link href="{{ URL::asset('plugins/dist/css/plugins/tooltipster/sideTip/themes/tooltipster-sideTip-punk.min.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" />
     <link href="{{ URL::asset('css/style.css') }}" rel="stylesheet">
     <link href="{{ URL::asset('css/mobile_first.css') }}" rel="stylesheet">
