@@ -55,11 +55,9 @@
                         proxynium
                     </span>
                     <br><br>
-                    <a class="footer-link" href="">Page d'accueil</a>
+                    <a class="footer-link" href="">Mission</a>
 
-                    <a class="footer-link" href="">Vous</a>
-
-                    <a class="footer-link" href="">Notre Mission</a>
+                    <a class="footer-link" href="">Notre Cagnotte</a>
 
                     <a href=""><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
                     <a href=""><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
@@ -69,15 +67,12 @@
                 <div class="col-sm-4 text-center mobile-padding-footer">
 
                     <span class="footer-title">
-                        à propos
+                        CONDITIONS
                     </span>
                     <br><br>
-                    <p class="text-justify">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci architecto atque commodi consectetur deleniti dicta ducimus.
-                        <br><br>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consequatur error exercitationem explicabo impedit ipsa laboriosam officiis quaerat recusandae, sint. Aperiam earum ex facilis iste officia, possimus quo rerum vero?
+                    <a class="footer-link" href="">Conditions Générale d'Utilisation</a>
 
-                    </p>
+                    <a class="footer-link" href="">Déclarations de confidentialité</a>
 
                 </div>
                 <div class="col-sm-4 text-center mobile-padding-footer">
@@ -85,23 +80,15 @@
                     <span class="footer-title">
                         contact
                     </span>
-                    <br><br>
-
-                    TEL : 01 12 34 56 78 <br>
-                    Adresse:
-                    <br><br>
-                    Mail : proxynium@gmail.com
+                    <br><br><br>
+                    Mail : hello@proxynium.com
 
                 </div>
             </div>
         </div>
 
         <div class="col-sm-1"></div>
-
-        <div class="col-sm-12 text-center">
-            <br><br>
-            Crédit et mentions légale
-        </div>
+        <br>
     </div>
 </div>
 <!-- /footer -->
