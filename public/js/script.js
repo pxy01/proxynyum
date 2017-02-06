@@ -99,7 +99,7 @@ $(document).ready(function() {
         minute: 30
     });
 
-    $('.tooltip').tooltipster({
+    $('.jeune-electeur-button').tooltipster({
         theme: 'tooltipster-punk'
     });
 });

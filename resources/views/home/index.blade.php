@@ -42,7 +42,7 @@
                                     <div id="non" class="electeur-button">non</div>
                                 </div>
                                 <div class="col-xs-3">
-                                    <div id="jeune" class="jeune-electeur-button tooltip" title="Si vous avez eu 18 ans avant 2017 ou si vous allez avoir 18 ans en 2017 avant le 1er tour des élections, vous êtes inscrit d’office sur les listes électorales, à condition d’avoir été recensé à 16 ans par l’Insee.">je suis jeune <br> jamais inscrit<sup>*</sup></div>
+                                    <div id="jeune" class="jeune-electeur-button" title="Si vous avez eu 18 ans avant 2017 ou si vous allez avoir 18 ans en 2017 avant le 1er tour des élections, vous êtes inscrit d’office sur les listes électorales, à condition d’avoir été recensé à 16 ans par l’Insee.">je suis jeune <br> jamais inscrit<sup>*</sup></div>
                                 </div>
                                 <div class="col-xs-2"></div>
                             </div>
