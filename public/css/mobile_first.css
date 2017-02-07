@@ -24,9 +24,13 @@
     /*:::::mission :::::::::*/
 
     /*::::: popup :::::::::*/
+    #popup .mission-block-two .electeur-button{
+        font-size: 1.5em;
+        font-weight: bold;
+    }
     #popup .mission-block-two .jeune-electeur-button{
-        font-size: 0.8em;
-        padding: 7px 0;
+        font-size: 1em;
+        padding: 5px 0;
     }
     /*::::: popup :::::::::*/
 
@@ -91,12 +95,14 @@
     #popup .mission-block-one .text{
         font-size: 1.3em;
     }
+
     #popup .mission-block-two .electeur-button{
-        font-size: 1.2em;
+        font-size: 1.5em;
+        font-weight: bold;
     }
     #popup .mission-block-two .jeune-electeur-button{
-        font-size: 0.8em;
-        padding: 4px 0;
+        font-size: 1em;
+        padding: 5px 0;
     }
     /*::::: popup :::::::::*/
 
@@ -199,9 +205,13 @@
     #popup .mission-block-two{
         padding: 1em 1em;
     }
+    #popup .mission-block-two .electeur-button{
+        font-size: 1.5em;
+        font-weight: bold;
+    }
     #popup .mission-block-two .jeune-electeur-button{
-        font-size: 0.7em;
-        padding: 2px 0;
+        font-size: 1em;
+        padding: 5px 0;
     }
     #popup #question-pc{
         display: block;
@@ -378,9 +388,13 @@
     #popup .mission-block-two{
         padding: 1em 1em;
     }
+    #popup .mission-block-two .electeur-button{
+        font-size: 1.5em;
+        font-weight: bold;
+    }
     #popup .mission-block-two .jeune-electeur-button{
-        font-size: 0.7em;
-        padding: 2px 0;
+        font-size: 1em;
+        padding: 5px 0;
     }
     #popup #question-pc{
         display: block;
@@ -587,9 +601,13 @@
         padding: 1em 0.5em;
         font-size: 1.2em;
     }
+    #popup .mission-block-two .electeur-button{
+        font-size: 1.5em;
+        font-weight: bold;
+    }
     #popup .mission-block-two .jeune-electeur-button{
-        font-size: 0.6em;
-        padding: 4px 0;
+        font-size: 1em;
+        padding: 5px 0;
     }
     #popup #question-pc{
         display: block;
