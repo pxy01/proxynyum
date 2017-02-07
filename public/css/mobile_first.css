@@ -30,7 +30,7 @@
     }
     #popup .mission-block-two .jeune-electeur-button{
         font-size: 1em;
-        padding: 5px 0;
+        padding: 3px 0;
     }
     /*::::: popup :::::::::*/
 
@@ -102,7 +102,7 @@
     }
     #popup .mission-block-two .jeune-electeur-button{
         font-size: 1em;
-        padding: 5px 0;
+        padding: 3px 0;
     }
     /*::::: popup :::::::::*/
 
@@ -211,7 +211,7 @@
     }
     #popup .mission-block-two .jeune-electeur-button{
         font-size: 1em;
-        padding: 5px 0;
+        padding: 3px 0;
     }
     #popup #question-pc{
         display: block;
@@ -394,7 +394,7 @@
     }
     #popup .mission-block-two .jeune-electeur-button{
         font-size: 1em;
-        padding: 5px 0;
+        padding: 3px 0;
     }
     #popup #question-pc{
         display: block;
@@ -808,9 +808,13 @@
         padding: 1em 0.5em;
         font-size: 1.2em;
     }
+    #popup .mission-block-two .electeur-button{
+        font-size: 1em;
+        font-weight: bold;
+    }
     #popup .mission-block-two .jeune-electeur-button{
-        font-size: 0.6em;
-        padding: 2px 0;
+        font-size: .7em;
+        padding: 5px 0;
     }
     #popup #question-pc{
         display: block;
