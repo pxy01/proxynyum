@@ -116,7 +116,7 @@ body {
 }
 .option-block .option-one a{
     color: #424242;
-    font-size: 18px;
+    font-size: 1.5em;
 }
 .option-block .option-one a:hover{
     text-decoration: none;
