@@ -1,0 +1,869 @@
+
+/*::::::::::::::::::::::::::::::::::: affichage tablette :::::::::::::::::::::::::*/
+@media all and (min-width: 992px){
+    #menu .accueil,#menu .mission{
+        padding: 2.5em 1.5em;
+    }
+    #menu .accueil a,#menu .mission a{
+        font-size: 18px;
+    }
+    #menu .logo img{
+        width: 100px;
+    }
+    #mission .mission-block-one .text{
+        padding: 0 2em 0 2em;
+        font-size: 1.2em;
+    }
+
+    /*:::::mission :::::::::*/
+
+    .page9-background{
+        background-size: 100% 1200px;
+    }
+
+    /*:::::mission :::::::::*/
+
+    /*::::: popup :::::::::*/
+    #popup .mission-block-two .electeur-button{
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+    #popup .mission-block-two .jeune-electeur-button{
+        font-size: 1em;
+        padding: 3px 0;
+    }
+    /*::::: popup :::::::::*/
+
+    /*:::::::::::::::::::::: partial block white :::::::::::::::::::::::::*/
+    #simple_timer{
+        padding: 0;
+    }
+    #simple_timer .timer-body-block{
+        padding-left: 0;
+    }
+    #simple_timer .table-cell{
+        margin-right: 2em;
+        margin-left: 2em;
+    }
+    #simple_timer .table-cell .tab-val{
+        font-size: 5em;
+        margin-top: 0.4em;
+    }
+    #simple_timer .table-cell .tab-metr{
+        font-size: 1em;
+        margin-top: 15px;
+    }
+    #simple_timer .day .tab-metr{
+        padding-left: 1em;
+    }
+    #simple_timer .hour .tab-metr{
+        padding-left: 0.5em;
+    }
+    #simple_timer .minute .tab-metr{
+        padding-left: 0.6em;
+    }
+    #simple_timer .second .tab-metr{
+        padding-left: 0;
+    }
+
+
+}
+@media all and (min-width: 960px) and (max-width: 991px){
+
+    #menu .accueil,#menu .mission{
+        padding: 2.5em 1.5em;
+    }
+    #menu .accueil a,#menu .mission a{
+        font-size: 18px;
+    }
+    #menu .logo img{
+        width: 100px;
+    }
+    /*:::::mission :::::::::*/
+
+    .page9-background{
+        background-size: 100% 1200px;
+    }
+    #mission .mission-block-one .text{
+        padding: 0 2em 0 2em;
+        font-size: 1.2em;
+    }
+
+    /*:::::mission :::::::::*/
+
+    /*::::: popup :::::::::*/
+    #popup .mission-block-one .text{
+        font-size: 1.3em;
+    }
+
+    #popup .mission-block-two .electeur-button{
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+    #popup .mission-block-two .jeune-electeur-button{
+        font-size: 1em;
+        padding: 3px 0;
+    }
+    /*::::: popup :::::::::*/
+
+
+    /*:::::::::::::::::::::: partial block white :::::::::::::::::::::::::*/
+    #simple_timer .timer-body-block{
+        padding-left: 1.1em;
+    }
+    #simple_timer .timer-body-block{
+        padding-left: 0;
+    }
+    #simple_timer .table-cell{
+        margin-right: 1.8em;
+        margin-left: 1.8em;
+    }
+    #simple_timer .table-cell .tab-val{
+        font-size: 5em;
+        margin-top: 0.4em;
+    }
+    #simple_timer .table-cell .tab-metr{
+        font-size: 1em;
+        margin-top: 15px;
+    }
+    #simple_timer .day .tab-metr{
+        padding-left: 1em;
+    }
+    #simple_timer .hour .tab-metr{
+        padding-left: 0.5em;
+    }
+    #simple_timer .minute .tab-metr{
+        padding-left: 0.6em;
+    }
+    #simple_timer .second .tab-metr{
+        padding-left: 0;
+    }
+
+
+}
+
+@media all and (min-width: 770px) and (max-width: 959px){
+
+    #menu .accueil,#menu .mission{
+        padding: 2.5em 1em;
+    }
+    #menu .accueil a,#menu .mission a{
+        font-size: 14px;
+    }
+
+    #menu .logo img{
+        width: 100px;
+    }
+
+    .block-white .bloc-day, .bloc-hour, .bloc-minute, .bloc-second{
+        width: 90px;
+        padding: 10px;
+    }
+    .formulaire .champ-label{
+        font-size: 16px;
+        padding-top: 7px;
+    }
+    .formulaire .champ-label sup{
+        font-size: 10px;
+    }
+    .formulaire .champ-formulaire{
+         width: 300px;
+     }
+    .formulaire .other-button-style{
+        left: 17.3em;
+    }
+    .basic_error{
+        width: 300px;
+    }
+
+
+    /*:::::mission :::::::::*/
+
+    .page9-background{
+        background-size: 100% 1200px;
+    }
+    #mission .mission-block-one .text{
+        padding: 0 2em 0 2em;
+        font-size: 1.2em;
+    }
+
+    /*:::::mission :::::::::*/
+
+    /*::::: popup :::::::::*/
+    #popup .mission-block-one .text{
+        font-size: 1em;
+    }
+    #popup .mission-block-two .electeur-button{
+        font-size: 0.8em;
+    }
+    #popup .other-block .title{
+        font-size: 1.5em!important;
+    }
+    #popup .mission-block-one .title{
+        font-size: 2em;
+    }
+    #popup .mission-block-two{
+        padding: 1em 1em;
+    }
+    #popup .mission-block-two .electeur-button{
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+    #popup .mission-block-two .jeune-electeur-button{
+        font-size: 1em;
+        padding: 3px 0;
+    }
+    #popup #question-pc{
+        display: block;
+    }
+    #popup .disable-in-mobile-first{
+        display: none;
+    }
+    #popup #question-mobile{
+        display: block;
+    }
+    /*::::: popup :::::::::*/
+
+    /*:::::::::::::::::::::: partial block white :::::::::::::::::::::::::*/
+    #simple_timer .timer-body-block{
+        padding-left: 0.5em;
+    }
+    #simple_timer .timer-body-block{
+        padding-left: 0;
+    }
+    #simple_timer .table-cell{
+        margin-right: 1em;
+        margin-left: 1em;
+    }
+    #simple_timer .table-cell .tab-val{
+        font-size: 4.5em;
+        margin-top: 0.5em;
+    }
+    #simple_timer .table-cell .tab-metr{
+        font-size: 1em;
+        margin-top: 18px;
+    }
+    #simple_timer .day .tab-metr{
+        padding-left: 0.8em;
+    }
+    #simple_timer .hour .tab-metr{
+        padding-left: 0.5em;
+    }
+    #simple_timer .minute .tab-metr{
+        padding-left: 0.2em;
+    }
+    #simple_timer .second .tab-metr{
+        padding-left: 0;
+    }
+
+}
+@media all and (min-width: 650px) and (max-width: 769px){
+    #menu{
+        display: none;
+    }
+
+    /*:::::::::::::::: menu ::::::::::::::::::*/
+    #menu-mobile{
+        text-align: center;
+        width: 100%;
+        height: 130px;
+        padding: 1em;
+        background-color: rgba(255,255,255,0.9);
+        display: block;
+        overflow: hidden;
+        z-index: 9999; !important;
+        position: relative;
+    }
+    #menu-mobile .logo img{
+        width: 100px;
+        height: 100px;
+    }
+    #menu-mobile .accueil{
+        padding: 2em;
+    }
+    #menu-mobile .accueil .fa{
+        cursor: pointer;
+        color: #4A4A4A;
+        font-size: 3em;
+    }
+    #menu-mobile .accueil #close-nav{
+        display: none;
+    }
+
+    #sous-menu{
+        display: block;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        z-index: 1;
+        margin-left: -100%;
+    }
+    #sous-menu .sous-menu{
+        text-align: center;
+        width: 100%;
+        position: absolute;
+        left: 0;
+    }
+    #sous-menu .sous-menu .quel-electeur,#sous-menu .sous-menu .mission{
+        padding: 1em;
+        background-color: rgba(70,70,70,0.9);
+        color: #FFF;
+        text-transform: uppercase;
+        font-size: 1.5em;
+    }
+    #sous-menu .sous-menu .mission{
+        border-top: 2px solid #FADB00;
+    }
+    #sous-menu .sous-menu .quel-electeur a,#sous-menu .sous-menu .mission a{
+        color: #FFF;
+    }
+    #sous-menu .sous-menu .quel-electeur a:hover,#sous-menu .sous-menu .mission a:hover{
+        color: #FFF;
+        text-decoration: none;
+    }
+    /*::::::::::::::::: end menu ::::::::::::::::::::::*/
+
+    .rubrique-one{
+        padding-bottom: 1.5em;
+    }
+    .formulaire .mobile-position{
+        text-align: center !important;
+    }
+
+    .formulaire .champ-label{
+        text-align: center !important;
+    }
+    .formulaire .button-mobile-position{
+        text-align: center;
+    }
+    .rubrique-one .text-two{
+        padding: 0.5em 2em;
+
+    }
+    .formulaire .champ-formulaire{
+        width: 300px;
+    }
+    .formulaire .other-button-style{
+        left: 17.3em;
+    }
+    .basic_error{
+        width: 300px;
+    }
+
+    /*:::::mission :::::::::*/
+
+    .page9-background{
+        background-size: 100% 1200px;
+    }
+    #mission .mission-block-one .text{
+        padding: 0 1em 0 1em;
+        font-size: 1em;
+    }
+
+    #mission .other-block .title{
+        font-size: 1.5em!important;
+    }
+    #mission .mission-block-one .title{
+        font-size: 2em;
+        margin: 0.2em 0 0.2em 0;
+    }
+    /*:::::mission :::::::::*/
+
+    /*::::: popup :::::::::*/
+    .popup-body{
+        height: 1020px;
+    }
+    #popup .mission-block-one .text{
+        font-size: 1em;
+    }
+    #popup .mission-block-two .electeur-button{
+        font-size: 0.8em;
+    }
+    #popup .other-block .title{
+        font-size: 1.5em!important;
+    }
+    #popup .mission-block-one .title{
+        font-size: 2em;
+    }
+    #popup .mission-block-two{
+        padding: 1em 1em;
+    }
+    #popup .mission-block-two .electeur-button{
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+    #popup .mission-block-two .jeune-electeur-button{
+        font-size: 1em;
+        padding: 3px 0;
+    }
+    #popup #question-pc{
+        display: block;
+    }
+    #popup #question-mobile{
+        display: block;
+    }
+    #popup #info-proxynium{
+        display: none;
+    }
+    /*::::: popup :::::::::*/
+
+    /*::::: footer :::::::::*/
+    .footer .mobile-padding-footer{
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+    /*::::: footer :::::::::*/
+
+    .retour-button{
+        display: block;
+    }
+
+    /*:::::::::::::::::::::: partial block white :::::::::::::::::::::::::*/
+    #simple_timer .timer-body-block{
+        padding-left: 0.5em;
+    }
+    #simple_timer .timer-body-block{
+        padding-left: 0;
+    }
+    #simple_timer .table-cell{
+        margin-right: 1em;
+        margin-left: 1em;
+    }
+    #simple_timer .table-cell .tab-val{
+        font-size: 4.5em;
+        margin-top: 0.5em;
+    }
+    #simple_timer .table-cell .tab-metr{
+        font-size: 1em;
+        margin-top: 18px;
+    }
+    #simple_timer .day .tab-metr{
+        padding-left: 0.8em;
+    }
+    #simple_timer .hour .tab-metr{
+        padding-left: 0.5em;
+    }
+    #simple_timer .minute .tab-metr{
+        padding-left: 0.2em;
+    }
+    #simple_timer .second .tab-metr{
+        padding-left: 0;
+    }
+
+}
+
+@media all and (min-width: 490px) and (max-width: 649px){
+
+    #menu{
+        display: none;
+    }
+    .retour-button{
+        display: block;
+    }
+
+    /*:::::::::::::::: menu ::::::::::::::::::*/
+    #menu-mobile{
+        text-align: center;
+        width: 100%;
+        height: 130px;
+        padding: 1em;
+        background-color: rgba(255,255,255,0.9);
+        display: block;
+        overflow: hidden;
+        z-index: 9999; !important;
+        position: relative;
+    }
+    #menu-mobile .logo img{
+        width: 100px;
+        height: 100px;
+    }
+    #menu-mobile .accueil{
+        padding: 2em;
+    }
+    #menu-mobile .accueil .fa{
+        cursor: pointer;
+        color: #4A4A4A;
+        font-size: 3em;
+    }
+    #menu-mobile .accueil #close-nav{
+        display: none;
+    }
+
+    #sous-menu{
+        display: block;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        z-index: 1;
+        margin-left: -100%;
+    }
+    #sous-menu .sous-menu{
+        text-align: center;
+        width: 100%;
+        position: absolute;
+        left: 0;
+    }
+    #sous-menu .sous-menu .quel-electeur,#sous-menu .sous-menu .mission{
+        padding: 1em;
+        background-color: rgba(70,70,70,0.9);
+        color: #FFF;
+        text-transform: uppercase;
+        font-size: 1.5em;
+    }
+    #sous-menu .sous-menu .mission{
+        border-top: 2px solid #FADB00;
+    }
+    #sous-menu .sous-menu .quel-electeur a,#sous-menu .sous-menu .mission a{
+        color: #FFF;
+    }
+    #sous-menu .sous-menu .quel-electeur a:hover,#sous-menu .sous-menu .mission a:hover{
+        color: #FFF;
+        text-decoration: none;
+    }
+    /*::::::::::::::::: end menu ::::::::::::::::::::::*/
+
+    .rubrique-one{
+        padding-bottom: 1.5em;
+    }
+    .formulaire .mobile-position{
+        text-align: center !important;
+    }
+
+    .formulaire .champ-formulaire{
+        width: 300px;
+    }
+    .formulaire .other-button-style{
+        left: 17.3em;
+    }
+    .basic_error{
+        width: 300px;
+    }
+
+    .formulaire .champ-label{
+        text-align: center !important;
+    }
+    .formulaire .button-mobile-position{
+        text-align: center;
+    }
+    .rubrique-one .text-two{
+        padding: 0.5em;
+        font-size: 18px;
+    }
+    .rubrique-one .text-one{
+        font-size: 18px;
+    }
+    .option-block .option-one a{
+        font-size: 16px;
+    }
+
+    /*:::::mission :::::::::*/
+
+    .page9-background{
+        background-size: 100% 1200px;
+    }
+    #mission .mission-block-one .text{
+        padding: 0 1em 0 1em;
+        font-size: 1em;
+    }
+
+    #mission .other-block .title{
+        font-size: 1.5em!important;
+    }
+    #mission .mission-block-one .title{
+        font-size: 2em;
+        margin: 0.2em 0 0.2em 0;
+    }
+    #mission .mission-block-two .icon{
+        font-size: 5em;
+    }
+    /*:::::mission :::::::::*/
+
+    /*::::: popup :::::::::*/
+    .popup-body{
+        height: 1020px;
+    }
+
+    #popup .mission-block-one .text{
+        font-size: 1em;
+    }
+    #popup .mission-block-two .electeur-button{
+        font-size: 0.7em;
+        display: block;
+        margin-top: 2px;
+    }
+    #popup .other-block .title{
+        font-size: 1.5em!important;
+    }
+    #popup .mission-block-one .title{
+        font-size: 1.3em;
+    }
+    #popup .mission-block-two{
+        padding: 1em 0.5em;
+        font-size: 1.2em;
+    }
+    #popup .mission-block-two .electeur-button{
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+    #popup .mission-block-two .jeune-electeur-button{
+        font-size: 1em;
+        padding: 5px 0;
+    }
+    #popup #question-pc{
+        display: block;
+    }
+    #popup #question-mobile{
+        display: block;
+    }
+    #popup #info-proxynium{
+        display: none;
+    }
+    /*::::: popup :::::::::*/
+
+    /*::::: footer :::::::::*/
+    .footer .mobile-padding-footer{
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+    /*::::: footer :::::::::*/
+
+    /*:::::::::::::::::::::: partial block white :::::::::::::::::::::::::*/
+    #simple_timer .timer-body-block{
+        padding-left: 0.5em;
+    }
+    #simple_timer .timer-body-block{
+        padding-left: 0;
+    }
+    #simple_timer .table-cell{
+        margin-right: 1em;
+        margin-left: 1em;
+    }
+    #simple_timer .table-cell .tab-val{
+        font-size: 4.5em;
+        margin-top: 0.5em;
+    }
+    #simple_timer .table-cell .tab-metr{
+        font-size: 1em;
+        margin-top: 18px;
+    }
+    #simple_timer .day .tab-metr{
+        padding-left: 0.8em;
+    }
+    #simple_timer .hour .tab-metr{
+        padding-left: 0.5em;
+    }
+    #simple_timer .minute .tab-metr{
+        padding-left: 0.2em;
+    }
+    #simple_timer .second .tab-metr{
+        padding-left: 0;
+    }
+}
+
+@media all and (max-width: 489px){
+
+    #menu{
+        display: none;
+    }
+    .retour-button{
+        display: block;
+    }
+
+    /*:::::::::::::::: menu ::::::::::::::::::*/
+    #menu-mobile{
+        text-align: center;
+        width: 100%;
+        height: 130px;
+        padding: 1em;
+        background-color: rgba(255,255,255,0.9);
+        display: block;
+        overflow: hidden;
+        z-index: 9999; !important;
+        position: relative;
+    }
+    #menu-mobile .logo img{
+        width: 100px;
+        height: 100px;
+    }
+    #menu-mobile .accueil{
+        padding: 2em;
+    }
+    #menu-mobile .accueil .fa{
+        cursor: pointer;
+        color: #4A4A4A;
+        font-size: 3em;
+    }
+    #menu-mobile .accueil #close-nav{
+        display: none;
+    }
+
+    #sous-menu{
+        display: block;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        z-index: 1;
+        margin-left: -100%;
+    }
+    #sous-menu .sous-menu{
+        text-align: center;
+        width: 100%;
+        position: absolute;
+        left: 0;
+    }
+    #sous-menu .sous-menu .quel-electeur,#sous-menu .sous-menu .mission{
+        padding: 1em;
+        background-color: rgba(70,70,70,0.9);
+        color: #FFF;
+        text-transform: uppercase;
+        font-size: 1.5em;
+    }
+    #sous-menu .sous-menu .mission{
+        border-top: 2px solid #FADB00;
+    }
+    #sous-menu .sous-menu .quel-electeur a,#sous-menu .sous-menu .mission a{
+        color: #FFF;
+    }
+    #sous-menu .sous-menu .quel-electeur a:hover,#sous-menu .sous-menu .mission a:hover{
+        color: #FFF;
+        text-decoration: none;
+    }
+    /*::::::::::::::::: end menu ::::::::::::::::::::::*/
+
+    .rubrique-one{
+        padding-bottom: 1.5em;
+    }
+    .formulaire .mobile-position{
+        text-align: center !important;
+    }
+
+    .formulaire .champ-formulaire{
+        width: 300px;
+    }
+    .formulaire .other-button-style{
+        left: 17.3em;
+    }
+    .basic_error{
+        width: 300px;
+    }
+
+    .formulaire .champ-label{
+        text-align: center !important;
+    }
+    .formulaire .button-mobile-position{
+        text-align: center;
+    }
+    .rubrique-one .text-two{
+        padding: 0.5em;
+        font-size: 18px;
+    }
+    .rubrique-one .text-one{
+        font-size: 18px;
+    }
+    .option-block .option-one a{
+        font-size: 14px;
+    }
+    /*:::::mission :::::::::*/
+
+    .page9-background{
+        background-size: 100% 1200px;
+    }
+    #mission .mission-block-one .text{
+        padding: 0 1em 0 1em;
+        font-size: 1em;
+    }
+
+    #mission .other-block .title{
+        font-size: 1.5em!important;
+    }
+    #mission .mission-block-one .title{
+        font-size: 2em;
+        margin: 0.2em 0 0.2em 0;
+    }
+    #mission .mission-block-two .icon{
+        font-size: 4em;
+    }
+    /*:::::mission :::::::::*/
+
+    /*::::: popup :::::::::*/
+    .popup-body{
+        height: 1020px;
+    }
+
+    #popup .mission-block-one .text{
+        font-size: 1em;
+    }
+    #popup .mission-block-two .electeur-button{
+        font-size: 0.5em;
+        display: block;
+        margin-top: 1px;
+    }
+    #popup .other-block .title{
+        font-size: 1.5em!important;
+    }
+    #popup .mission-block-one .title{
+        font-size: 1.3em;
+    }
+    #popup .mission-block-two{
+        padding: 1em 0.5em;
+        font-size: 1.2em;
+    }
+    #popup .mission-block-two .electeur-button{
+        font-size: 1em;
+        font-weight: bold;
+    }
+    #popup .mission-block-two .jeune-electeur-button{
+        font-size: .7em;
+        padding: 5px 0;
+    }
+    #popup #question-pc{
+        display: block;
+    }
+    #popup #question-mobile{
+        display: block;
+    }
+    #popup #info-proxynium{
+        display: none;
+    }
+    /*::::: popup :::::::::*/
+
+    /*::::: footer :::::::::*/
+    .footer .mobile-padding-footer{
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+    /*::::: footer :::::::::*/
+
+    /*:::::::::::::::::::::: partial block white :::::::::::::::::::::::::*/
+    #simple_timer .timer-body-block{
+        padding-left: 0.5em;
+    }
+    #simple_timer .timer-body-block{
+        padding-left: 0;
+    }
+    #simple_timer .table-cell{
+        margin-right: 1em;
+        margin-left: 1em;
+    }
+    #simple_timer .table-cell .tab-val{
+        font-size: 4.5em;
+        margin-top: 0.5em;
+    }
+    #simple_timer .table-cell .tab-metr{
+        font-size: 1em;
+        margin-top: 18px;
+    }
+    #simple_timer .day .tab-metr{
+        padding-left: 0.8em;
+    }
+    #simple_timer .hour .tab-metr{
+        padding-left: 0.5em;
+    }
+    #simple_timer .minute .tab-metr{
+        padding-left: 0.2em;
+    }
+    #simple_timer .second .tab-metr{
+        padding-left: 0;
+    }
+
+}
